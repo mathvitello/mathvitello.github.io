@@ -1,0 +1,38 @@
+#flyers img{
+	margin: 0 auto;
+	display: block;
+	width:45%;
+}
+
+#flyers{
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+#tickets-link{
+	color:#333;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+body{
+	background-color: #f1edec !important;
+}
+
+@media(min-width: 0px){
+	#flyers img{
+		width:75%;
+	}
+	.container.h-100{
+		padding-top: 100px;
+	}
+}
+
+@media(min-width: 650px){
+	#flyers img{
+		width:45%;
+	}
+	.container.h-100{
+		padding-top: 170px;
+	}
+}
