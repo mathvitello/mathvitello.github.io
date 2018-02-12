@@ -4,32 +4,6 @@ html, body{
 
 
 
-.line-1{
-    border-right: 2px solid rgba(0,0,0,.75);
-    white-space: nowrap;
-    overflow: hidden;
-    font-size: 2em;
-    font-weight: 900;
-    font-family: helvetica neue;
-    color: #333;
-}
-
-
-.anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 1000ms steps(44) infinite normal;
-}
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 7.6em;}
-}
-@keyframes blinkTextCursor{
-  from{border-right: 2px solid rgba(0,0,0,.75);}
-  to{border-right: none;}
-}
-
-
-
 /*Menu*/
 .menu-i{
     position: fixed;
