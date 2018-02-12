@@ -21,18 +21,20 @@ body{
 
 @media(min-width: 0px){
 	#flyers img{
-		width:75%;
+		width:85%;
+		height:85%;
 	}
 	.container.h-100{
-		padding-top: 100px;
+		
 	}
 }
 
 @media(min-width: 650px){
 	#flyers img{
-		width:45%;
+		width:90%; 	/*45%*/
+		height: 90%;
 	}
-	.container.h-100{
-		padding-top: 170px;
+	#flyer{
+
 	}
 }
