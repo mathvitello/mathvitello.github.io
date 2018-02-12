@@ -15,6 +15,17 @@ html, body {
   overflow: hidden;
 }
 
+.menu-i{
+    z-index: 1000;
+}
+.menu-i a, .menu-i a:hover{
+    color:#CCC !important;
+}
+
+.menu-i .active{
+    border-bottom: 2px solid #CCC !important;
+}
+
 .row{
     margin-left:0px !important;
     margin-right:0px !important;
