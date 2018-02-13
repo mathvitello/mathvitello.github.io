@@ -2,7 +2,6 @@
     border-right: 2px solid rgba(255,255,255,.75);
     white-space: nowrap;
     overflow: hidden;
-    font-size: 3.2em;
     font-weight: 900;
     font-family: helvetica neue;
     color: #fff;
@@ -21,10 +20,41 @@
 }
 
 #links{
-      margin-top: 15%;
+      margin-top: 12%;
 }
 #links img{
     width: 24px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+@media(min-width: 0px){
+  body{
+    background: url(../img/roy-bg3.jpg);
+  }
+  .line-1{
+    font-size: 2.2em;
+  }
+  #first{
+    margin-left:5px;
+  }
+  #last{
+    margin-right: 15px !important;
+  }
+}
+
+@media(min-width: 650px){
+  body{
+    background: url(../img/roy-bg6.jpg);
+  }
+  .line-1{
+    font-size: 3.2em;
+  }
+
+  #first{
+    margin-left: 60px !important;
+  }
+  #last{
+    margin-right: 100px !important;
+  }
 }
