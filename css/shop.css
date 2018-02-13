@@ -19,3 +19,9 @@
   from{border-right: 2px solid rgba(255,255,255,.75);}
   to{border-right: none;}
 }
+
+.shop-item{
+    width: 280px;
+    margin: 0 auto;
+    display: block;
+}
