@@ -2,7 +2,13 @@ html, body{
 	height: 100%;
 }
 
+p{
+	color:#fff;
+}
 
+.content{
+	padding-top: 150px;padding-left: 60px;padding-right: 60px;
+}
 
 /*Menu*/
 .menu-i{

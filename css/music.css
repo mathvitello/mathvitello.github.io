@@ -19,3 +19,26 @@
   from{border-right: 2px solid rgba(255,255,255,.75);}
   to{border-right: none;}
 }
+
+.music-item{
+  /*font-family: 'Source Code Pro';*/
+  font-size: 1em;
+  position: relative;
+}
+
+.music-item svg{
+    width: 0.67em !important;
+    margin-right: 15px;
+}
+
+.music-item span{
+  font-size: 0.75em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+
+#music-right a, #music-left a, #music-right a:hover, #music-left a:hover{
+  text-decoration: none;
+}
