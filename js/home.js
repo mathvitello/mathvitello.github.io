@@ -23,7 +23,7 @@ function typewriter()
 
  if(first){
  	destination.innerHTML = sContents + '&nbsp';
- 	setTimeout("typewriter()", 1000);
+ 	setTimeout("typewriter()", 1500);
 	first = 0;
  }
  else{
