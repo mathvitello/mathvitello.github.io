@@ -42,3 +42,75 @@
 #music-right a, #music-left a, #music-right a:hover, #music-left a:hover{
   text-decoration: none;
 }
+
+.music-item:hover{
+  color:#ffffff91;
+ }
+
+#links{
+  margin-top:22px;
+}
+#links a img{
+    width: 26px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+iframe{
+
+  -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   filter: grayscale(100%);
+   transition: all 1s ease;
+}
+
+iframe:hover{
+   -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);
+}
+
+
+
+@media(min-width: 768px){
+  /*change to col-12, col-0, col-12*/
+  /*add padding on left and right edges*/
+}
+
+
+@media(min-width: 992px){
+  /*change to col-5, col-1, col-5*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
