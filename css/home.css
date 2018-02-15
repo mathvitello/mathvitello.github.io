@@ -5,6 +5,18 @@
     color: #fff;
 }
 
+#menu-item-plus{
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index:2;
+    bottom:0;
+    position: absolute;
+}
+
+#menu-item-plus img{
+  width:24px;
+  cursor: pointer;
+}
 
 #typedtext{
   animation: blinkTextCursor 1000ms infinite normal;

@@ -28,7 +28,6 @@ function typewriter()
  }
  else{
 	destination.innerHTML = sContents + '&nbsp' + aText[iIndex].substring(0, iTextPos);
-	console.log(iTextPos + ": " + aText[iIndex].substring(0, iTextPos));
 
 	 if ( iTextPos++ == iArrLength ) {
 	  iTextPos = 0;
@@ -46,3 +45,10 @@ function typewriter()
 
 
 typewriter();
+
+
+$("#menu-item-plus img").click(function() {
+	$('html,body').animate({
+	   scrollTop: $("#tumblr").offset().top
+	});
+});

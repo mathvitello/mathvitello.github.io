@@ -1,18 +1,7 @@
-#flyers img{
-	margin: 0 auto;
-	display: block;
-	width:45%;
-}
-
-#flyers{
-	padding-left: 0px;
-    padding-right: 0px;
-}
-
 #tickets-link{
 	color:#fff;
-	font-size: 30px;
-	font-weight: 800;
+	font-size: 26px;
+	font-weight: 500;
 }
 
 body{
@@ -24,19 +13,10 @@ body{
 		width:85%;
 		height:85%;
 	}
-	#tix{
-		margin-bottom: 40px; 
-		margin-top:40px;
-	}
 }
 
 @media(min-width: 650px){
 	#flyers img{
-		width:90%; 	/*45%*/
-		height: 90%;
-	}
-	#tix{
-		margin-bottom: 70px; 
-		margin-top:70px;
+		width:75%; 	/*45%*/
 	}
 }
