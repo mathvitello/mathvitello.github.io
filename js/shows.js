@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+/*$( document ).ready(function() {
     var windowWidth = $(window).width();
     if(windowWidth < 650){
     	$("#flyers img").attr("src","img/flyers-m.jpg");
@@ -16,4 +16,4 @@ $(window).on('resize', function(event){
     else{
     	$("#flyers img").attr("src","img/flyers.jpg");
     }
-});
+});*/

@@ -4,32 +4,47 @@
 	letter-spacing: 1px;
 }
 
+#flyers img{
+	width:75%; 
+	height:75%; 
+}
+
+#flyers-m img{
+	width:60%;
+	height:75%;
+}
+
+
 body{
 	background-color: #efc9eb !important;	/*f3d55e*/
 }
 
 @media(min-width: 0px){
-	#flyers img{
-		width:60%;
-		height:75%;
-	}
 	#tix{
 		margin-top: 20px;
 	}
 	#tickets-link{
 		font-size: 30px;
 	}
+	#flyers{
+		display: none;
+	}
+	#flyers-m{
+		display: flex;
+	}
 }
 
 @media(min-width: 650px){
-	#flyers img{
-		width:75%; 
-		height:75%; 
-	}
 	#tix{
 		margin-top: 70px;
 	}
 	#tickets-link{
 		font-size: 36px;
+	}
+	#flyers{
+		display: flex;
+	}
+	#flyers-m{
+		display: none;
 	}
 }
