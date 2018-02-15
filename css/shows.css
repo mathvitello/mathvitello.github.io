@@ -10,11 +10,11 @@ body{
 
 @media(min-width: 0px){
 	#flyers img{
-		width:69%;
+		width:60%;
 		height:75%;
 	}
 	#tix{
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 	#tickets-link{
 		font-size: 30px;
