@@ -1,7 +1,7 @@
 #tickets-link{
 	color:#fff;
-	font-size: 26px;
 	font-weight: 500;
+	letter-spacing: 1px;
 }
 
 body{
@@ -10,19 +10,26 @@ body{
 
 @media(min-width: 0px){
 	#flyers img{
-		width:85%;
-		height:85%;
+		width:69%;
+		height:75%;
 	}
 	#tix{
 		margin-top: 30px;
+	}
+	#tickets-link{
+		font-size: 30px;
 	}
 }
 
 @media(min-width: 650px){
 	#flyers img{
-		width:75%; 	/*45%*/
+		width:75%; 
+		height:75%; 
 	}
 	#tix{
 		margin-top: 70px;
+	}
+	#tickets-link{
+		font-size: 36px;
 	}
 }

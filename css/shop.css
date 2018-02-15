@@ -23,7 +23,30 @@
 }
 
 .shop-item{
-    width: 280px;
     margin: 0 auto;
     display: block;
+    padding-bottom: 35px;
+}
+
+@media(min-width: 0){
+  .shop-item{
+    width: 235px;
+  }
+  #shop-main{
+    padding-top: 90px;
+  }
+}
+@media(min-width: 650px){
+  .shop-item{
+    width: 280px;
+  }
+  #shop-main{
+    padding-top: 150px;
+  }
+}
+
+@media(min-width: 992){
+  #shop-main{
+    padding-top: inherit;
+  }
 }
