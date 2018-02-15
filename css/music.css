@@ -22,7 +22,7 @@
 
 .music-item{
   /*font-family: 'Source Code Pro';*/
-  font-size: 1em;
+  font-size: 1.1em;
   position: relative;
 }
 
@@ -75,6 +75,9 @@
     width:300px;
     height:300px;
   }
+  .music-item{
+    margin-bottom:1.3em;
+  }
 }
 
 @media(min-width: 576px){
@@ -96,18 +99,21 @@
     width:400px;
     height:400px;
   }
-iframe{
-  -webkit-filter: grayscale(100%);
-   -moz-filter: grayscale(100%);
-   filter: grayscale(100%);
-   transition: all 1s ease;
-}
+  iframe{
+    -webkit-filter: grayscale(100%);
+     -moz-filter: grayscale(100%);
+     filter: grayscale(100%);
+     transition: all 1s ease;
+  }
 
-iframe:hover{
-   -webkit-filter: grayscale(0%);
-   -moz-filter: grayscale(0%);
-   filter: grayscale(0%);
-}
+  iframe:hover{
+     -webkit-filter: grayscale(0%);
+     -moz-filter: grayscale(0%);
+     filter: grayscale(0%);
+  }
+  .music-item{
+    margin-bottom:1em;
+  }
 }
 
 
