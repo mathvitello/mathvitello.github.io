@@ -46,9 +46,15 @@ function typewriter()
 
 typewriter();
 
-
+/*
 $("#menu-item-plus img").click(function() {
 	$('html,body').animate({
 	   scrollTop: $("#tumblr").offset().top
+	});
+});*/
+
+$(document).ready(function() {
+	$('#fullpage').fullpage({
+		anchors:['home', 'tumblr']
 	});
 });

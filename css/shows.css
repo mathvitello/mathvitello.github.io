@@ -13,10 +13,16 @@ body{
 		width:85%;
 		height:85%;
 	}
+	#tix{
+		margin-top: 30px;
+	}
 }
 
 @media(min-width: 650px){
 	#flyers img{
 		width:75%; 	/*45%*/
+	}
+	#tix{
+		margin-top: 70px;
 	}
 }

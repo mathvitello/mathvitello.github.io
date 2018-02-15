@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/hover.css">
+  <link rel="stylesheet" href="css/jquery.fullpage.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108381604-1"></script>
   <script>
@@ -41,38 +42,40 @@
   <div class="menu-i" id="menu-item-credits">
     <a class="button hvr-grow" href="credits.html">CREDITS</a>
   </div>
-  <div class="menu-i" id="menu-item-plus">
-    <img src="img/arrow-down.png"/>
-  </div>
 
-  <div style="height: 100%; width:100%;">
-    <div class="container h-100">
-      <div class="row h-100 justify-content-center">
-        <div class="col-12 align-self-center" style="margin-top:3%;">
-          <div class="row justify-content-center"> 
-              <p id="typedtext"></p>
+  <div id="fullpage">
+    <div class="section" style="height: 100%; width:100%;">
+      <div class="container h-100">
+        <div class="row h-100 justify-content-center">
+          <div class="col-12 align-self-center" style="margin-top:3%;">
+            <div class="row justify-content-center"> 
+                <p id="typedtext"></p>
+            </div>
+              <div class="row justify-content-center">
+                <div id="links">
+                  <a class="button hvr-grow" href="https://itunes.apple.com/us/album/cat-heaven/1316794586?uo=4&at=1001l3Iq&ct=888915493540"><img id="first" src="img/apple.png"/></a>
+                  <a class="button hvr-grow" href="http://open.spotify.com/album/0Z9NeEvqeecaLCFUmI4uDw"><img src="img/spotify.png"/></a>
+                  <a class="button hvr-grow" href="https://soundcloud.com/royblair"><img src="img/soundcloud-logo.png"/></a>
+                  <a class="button hvr-grow" href="https://www.youtube.com/channel/UCa7naaG4ADIbHlz6QOz3MDA"><img src="img/youtube-logo.png"/></a>
+                  <a class="button hvr-grow" href="https://twitter.com/royblair_"><img src="img/twitter-logo-silhouette.png"/></a>
+                  <a class="button hvr-grow" href="https://www.instagram.com/royblair_/"><img src="img/instagram-logo.png"/></a>
+                  <a class="button hvr-grow" href="mailto:royblairmgmt@gmail.com"><img id="last" src="img/close-envelope.png"/></a>
+              </div>
+              </div>
           </div>
-            <div class="row justify-content-center">
-              <div id="links">
-                <a class="button hvr-grow" href="https://itunes.apple.com/us/album/cat-heaven/1316794586?uo=4&at=1001l3Iq&ct=888915493540"><img id="first" src="img/apple.png"/></a>
-                <a class="button hvr-grow" href="http://open.spotify.com/album/0Z9NeEvqeecaLCFUmI4uDw"><img src="img/spotify.png"/></a>
-                <a class="button hvr-grow" href="https://soundcloud.com/royblair"><img src="img/soundcloud-logo.png"/></a>
-                <a class="button hvr-grow" href="https://www.youtube.com/channel/UCa7naaG4ADIbHlz6QOz3MDA"><img src="img/youtube-logo.png"/></a>
-                <a class="button hvr-grow" href="https://twitter.com/royblair_"><img src="img/twitter-logo-silhouette.png"/></a>
-                <a class="button hvr-grow" href="https://www.instagram.com/royblair_/"><img src="img/instagram-logo.png"/></a>
-                <a class="button hvr-grow" href="mailto:royblairmgmt@gmail.com"><img id="last" src="img/close-envelope.png"/></a>
-            </div>
-            </div>
         </div>
       </div>
+      <div class="menu-i" id="menu-item-plus">
+        <div data-menuanchor="tumblr"><a href="#tumblr"><img src="img/arrow-down.png"/></a></div>
+      </div>
     </div>
-  </div>
-  <div style="height: 100%; width:100%;background:#f9f6f6;border-top:2px solid #fff">
-    <div class="container h-100" id="tumblr">
-      <div class="row h-100 justify-content-center">
-        <div class="col-12 align-self-center" style="margin-top:3%;">
-          <div class="row justify-content-center"> 
-             <p style="color:#333">tumblr blog</p>
+    <div class="section" data-anchor="tumblr" style="height: 100%; width:100%;background:#f9f6f6;border-top:2px solid #fff">
+      <div class="container h-100" id="tumblrPage">
+        <div class="row h-100 justify-content-center">
+          <div class="col-12 align-self-center">
+            <div class="row justify-content-center"> 
+               <p style="color:#333">tumblr blog</p>
+            </div>
           </div>
         </div>
       </div>
@@ -87,5 +90,6 @@
   <!--<script src="js/jquery.iframetracker.js"></script>-->
   <script src="js/main.js"></script>
   <script src="js/home.js"></script>
+  <script src="js/jquery.fullpage.min.js"></script>
 </body>
 </html>
