@@ -25,15 +25,18 @@
 .shop-item{
     margin: 0 auto;
     display: block;
-    padding-bottom: 35px;
 }
 
 @media(min-width: 0){
   .shop-item{
     width: 235px;
+    padding-bottom: 35px;
   }
   #shop-main{
     padding-top: 90px;
+  }
+  .last-item{
+    padding-bottom: 90px;
   }
 }
 @media(min-width: 650px){
@@ -45,8 +48,14 @@
   }
 }
 
-@media(min-width: 992){
+@media(min-width: 992px){
+  .shop-item{
+    padding-bottom: 0px;
+  }
   #shop-main{
     padding-top: inherit;
+  }
+  .last-item{
+    padding-bottom: 0px;
   }
 }
