@@ -1,0 +1,38 @@
+#lookbook-imgs img{
+	object-fit: contain;
+    max-width: 80vw;
+    max-height: 100vh;
+    margin: 0 auto;
+    display: block;
+}
+
+.slick-prev{
+	left: 4% !important;
+}
+
+.slick-next {
+    right: 4% !important;
+}
+#lookbook-imgs{
+	width: 100%;
+}
+
+
+@media(min-width: 0px){
+	.slick-next{
+		margin-right: 45px;
+	}
+	.slick-prev{
+		margin-left: 25px;
+	}
+
+}
+
+@media(min-width: 650px){
+	.slick-next{
+		margin-right: 70px;
+	}
+	.slick-prev{
+		margin-left: 50px;
+	}
+}
