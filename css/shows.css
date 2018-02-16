@@ -5,8 +5,8 @@
 }
 
 #flyers img{
-	width:75%; 
-	height:75%; 
+	width:78%; 
+	height:78%; 
 }
 
 #flyers-m img{
@@ -32,11 +32,18 @@ body{
 	#flyers-m{
 		display: flex;
 	}
+	#flyers img{
+		width:75%; 
+		height:75%; 
+	}
+	#fly-wrapper{
+		margin-top:0px;
+	}
 }
 
 @media(min-width: 650px){
 	#tix{
-		margin-top: 45px;
+		margin-top: 50px;
 	}
 	#tickets-link{
 		font-size: 30px;
@@ -46,5 +53,8 @@ body{
 	}
 	#flyers-m{
 		display: none;
+	}
+	#fly-wrapper{
+		margin-top:95px;
 	}
 }
