@@ -20,7 +20,7 @@
 
 @media(min-width: 0px){
 	.slick-next{
-		margin-right: 45px;
+		margin-right: 25px;
 	}
 	.slick-prev{
 		margin-left: 25px;
@@ -30,7 +30,7 @@
 
 @media(min-width: 650px){
 	.slick-next{
-		margin-right: 70px;
+		margin-right: 50px;
 	}
 	.slick-prev{
 		margin-left: 50px;

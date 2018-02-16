@@ -16,7 +16,7 @@
 
 
 body{
-	background-color: #efc9eb !important;	/*f3d55e*/
+	background: url(../img/backgrounds/textured_paper.jpg);
 }
 
 @media(min-width: 0px){
