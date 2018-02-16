@@ -85,11 +85,11 @@
 
 .slick-prev:before
 {
-    content: url(../img/lookbook/left-arrow.png);
+    content: '←';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: url(../img/lookbook/left-arrow.png);
+    content: '←';/*url(../img/lookbook/left-arrow.png);*/
 }
 
 .slick-next
@@ -100,11 +100,11 @@
 
 .slick-next:before
 {
-    content: url(../img/lookbook/right-arrow.png);
+    content: '→';
 }
 [dir='rtl'] .slick-next:before
 {
-    content: url(../img/lookbook/right-arrow.png);
+    content: '→'; /*url(../img/lookbook/right-arrow.png);*/)
 }
 
 /* Dots */
