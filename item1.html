@@ -26,7 +26,7 @@
     gtag('config', 'UA-108381604-1');
   </script>
 </head>
-<body style="background: #f1edec">
+<body style="background: #afafaf">
   <div class="menu-i" id="menu-item-roy">
     <a href="index.html"><img src="img/catheaven-logo-white.png"/></a>
   </div>
@@ -44,10 +44,176 @@
   </div>
 
   <div class="container h-100" style="">
-    <div class="row content" style="padding-top: 150px;padding-left: 60px;padding-right: 60px;">
-      <div class="col-6">
+    <div class="row" style="padding-top: 160px;padding-left: 30px;padding-right: 30px;">
+      <div class="col-7">
+        <img class="selected-shop-item" src="img/temp-item.png"/>
+        <br>
+        <p><span>item 1</span><span>item 2</span></p>
       </div>
-      <div class="col-6">
+      <div class="col-5">
+        <p class="product-name">PRODUCT NAME</p>
+        <p class="price">20 USD</p>
+
+
+
+
+        <div id='product-component-1508522277883'></div>
+          <script type="text/javascript">
+          /*<![CDATA[*/
+            (function () {
+              var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+              if (window.ShopifyBuy) {
+                if (window.ShopifyBuy.UI) {
+                  ShopifyBuyInit();
+                } else {
+                  loadScript();
+                }
+              } else {
+                loadScript();
+              }
+
+            function loadScript() {
+              var script = document.createElement('script');
+              script.async = true;
+              script.src = scriptURL;
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+              script.onload = ShopifyBuyInit;
+            }
+
+            function ShopifyBuyInit() {
+              var client = ShopifyBuy.buildClient({
+                domain: 'roy-blair.myshopify.com',
+                apiKey: 'c4436ef009919a87987bc103df1e3fa1',
+                appId: '6',
+              });
+
+              ShopifyBuy.UI.onReady(client).then(function (ui) {
+                ui.createComponent('product', {
+                  id: [269973258268],
+                  node: document.getElementById('product-component-1508522277883'),
+                  moneyFormat: '${{amount}}',
+                  options: {
+      "product":{"variantId":"all","width":"240px",
+        "contents":{"img":false,"imgWithCarousel":false,"title":false,"variantTitle":false,"price":false,"description":false,"buttonWithQuantity":false,"quantity":false},
+        "styles":{
+                  "product":{"text-align":"center","@media (min-width: 601px)":{"max-width":"calc(25% - 20px)","margin-left":"20px","margin-bottom":"50px"}},
+                         "button": {
+                            "color": "#fff",
+                            "background": "transparent",
+                            "border": "1px solid #fff",
+                            "font-family": "\"WebsiteFont\", \"Helvetica Neue\", Arial",
+                            "font-weight": "bold",
+                            "font-size": "0.9em",
+                            ":hover": {"background-color": "transparent"},
+                            ":focus": {
+                                "background-color": "transparent",
+                                "outline": "0 !important"
+                            },
+                            "padding": "12px 58px",
+              
+                            //"padding":"10px 24px 10px 24px"
+                         },
+                         "options":{
+                             "width": "207px !important",  //140
+                             "display": "block !important"
+                         },
+                         "buttonWrapper":{
+                             "text-align": "start"
+                         }
+                      }
+                    },
+                    "option":{
+                      "styles":{
+                          "option":{
+                              "cursor":"pointer",
+                              ":focus":{
+                                  "outline":"0 !important"
+                              }
+                          },
+                          "wrapper":{
+                              "background-color":"transparent",
+                              "border-color":"white",
+                              "border-width":"1px",
+                              "text-align-last":"center",
+                              "text-align":"center",
+                              "vertical-align":"center",
+                              "cursor":"pointer",
+                              ":focus":{
+                                  "outline":"0 !important"
+                              }
+                          },
+                          "select":{
+                              "color":"white",
+                              "font-family": "\"Helvetica Neue\", Arial",
+                              "font-weight": "bold",
+                              "font-size": "0.9em",
+                              "margin-left":"-2px",
+                              "cursor":"pointer",
+                              ":focus":{
+                                  "outline":"0 !important"
+                              },
+                              "padding":"7px 5px 7px 5px"
+                          },
+                          "selectIcon":{
+                              "fill":"white",
+                              ":focus":{
+                                  "outline":"0 !important"
+                              }
+                          },
+                          "optionSelected":{
+                            "color": "white"
+                          }
+                      }
+                    },
+                    "cart":{"contents":{"button":true},
+                      "styles":{
+                        "footer":{"background-color":"#ffffff"},
+                        "button":{
+                          "background-color":"transparent",
+                          "color": "black",
+                          "border": "1px solid black"
+                        }
+                      }},
+
+                    "toggle":{
+                      "styles":{
+                        "toggle":{
+                          "background-color": "#ffffff",
+                          ":hover": {"background-color": "#ffffff"},
+                          ":focus": {"background-color": "#ffffff"},
+                          "color": "#000"
+                        },
+                        "iconPath":{
+                          "fill": "#000"
+                        }
+                      }
+                    },
+
+                    "modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},
+                      "styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}}}},
+
+                    "productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+                });
+              });
+            }
+          })();
+          /*]]>*/
+          </script>
+
+          <p class="product-description">
+            blah blah blah soemthing about product description will go here
+          </p>
+
+
+
+
+
+
+
+
+
+
+
       </div>
     </div>
   </div>

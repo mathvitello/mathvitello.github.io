@@ -22,7 +22,7 @@
 
 .music-item{
   /*font-family: 'Source Code Pro';*/
-  font-size: 1.1em;
+  font-size: 1em;
   position: relative;
 }
 
@@ -92,24 +92,12 @@
     width: 350px;height: 350px;
   }
   #links a img{
-    margin-right: 16px;
-    margin-left: 16px;
+    margin-right: 23px;
+    margin-left: 23px;
   }
   iframe{
     width:400px;
     height:400px;
-  }
-  iframe{
-    -webkit-filter: grayscale(100%);
-     -moz-filter: grayscale(100%);
-     filter: grayscale(100%);
-     transition: all 1s ease;
-  }
-
-  iframe:hover{
-     -webkit-filter: grayscale(0%);
-     -moz-filter: grayscale(0%);
-     filter: grayscale(0%);
   }
   .music-item{
     margin-bottom:1em;
