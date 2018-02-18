@@ -23,7 +23,6 @@
     line-height: 0;
 
     position: absolute;
-    top: 50%;
 
     display: block;
 
@@ -85,11 +84,11 @@
 
 .slick-prev:before
 {
-    content: '←';
+    content: url(../img/lookbook/arrow-left.png);
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '←';/*url(../img/lookbook/left-arrow.png);*/
+    content: url(../img/lookbook/arrow-left.png);
 }
 
 .slick-next
@@ -100,11 +99,11 @@
 
 .slick-next:before
 {
-    content: '→';
+    content: url(../img/lookbook/arrow-right.png);
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '→'; /*url(../img/lookbook/right-arrow.png);*/)
+    content: url(../img/lookbook/arrow-right.png);
 }
 
 /* Dots */

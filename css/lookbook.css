@@ -10,9 +10,6 @@
 	left: 4% !important;
 }
 
-.slick-next {
-    right: 4% !important;
-}
 #lookbook-imgs{
 	width: 100%;
 }
@@ -20,19 +17,25 @@
 
 @media(min-width: 0px){
 	.slick-next{
-		margin-right: 25px;
+		margin-right: 150px;
 	}
 	.slick-prev{
-		margin-left: 25px;
+		margin-left: 80px;
+	}
+	.slick-prev, .slick-next{
+		top:93%;
 	}
 
 }
 
 @media(min-width: 650px){
 	.slick-next{
-		margin-right: 50px;
+		margin-right: 125px;
 	}
 	.slick-prev{
 		margin-left: 50px;
+	}
+	.slick-prev, .slick-next{
+		top:50%;
 	}
 }
