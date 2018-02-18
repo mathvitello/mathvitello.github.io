@@ -92,23 +92,31 @@
     .slick-prev:before
     {
         content: "<";
-        font-size: 30px;
+        font-size: 26px;
+        font-weight: 800;
+        opacity: 0.75;
     }
     [dir='rtl'] .slick-prev:before
     {
         content: "<";
-        font-size: 30px;
+        font-size: 26px;
+        font-weight: 800;
+        opacity: 0.75;
     }
 
     .slick-next:before
     {
         content: ">";
-        font-size: 30px;
+        font-size: 26px;
+        font-weight: 800;
+        opacity: 0.75;
     }
     [dir='rtl'] .slick-next:before
     {
         content: ">";
-        font-size: 30px;
+        font-size: 26px;
+        font-weight: 800;
+        opacity: 0.75;
     }
 }
 
@@ -116,19 +124,23 @@
     .slick-prev:before
     {
         content: url(../img/lookbook/arrow-left.png);
+        opacity: 1;
     }
     [dir='rtl'] .slick-prev:before
     {
         content: url(../img/lookbook/arrow-left.png);
+        opacity: 1;
     }
 
     .slick-next:before
     {
         content: url(../img/lookbook/arrow-right.png);
+        opacity: 1;
     }
     [dir='rtl'] .slick-next:before
     {
         content: url(../img/lookbook/arrow-right.png);
+        opacity: 1;
     }
 }
 
