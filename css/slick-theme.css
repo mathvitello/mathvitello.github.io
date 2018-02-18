@@ -82,28 +82,54 @@
     z-index: 100000000000000;
 }
 
-.slick-prev:before
-{
-    content: url(../img/lookbook/arrow-left.png);
-}
-[dir='rtl'] .slick-prev:before
-{
-    content: url(../img/lookbook/arrow-left.png);
-}
-
 .slick-next
 {
     right: 0 !important;
     z-index: 100000000000000;
 }
 
-.slick-next:before
-{
-    content: url(../img/lookbook/arrow-right.png);
+@media(min-width: 0px){
+    .slick-prev:before
+    {
+        content: "<";
+        font-size: 30px;
+    }
+    [dir='rtl'] .slick-prev:before
+    {
+        content: "<";
+        font-size: 30px;
+    }
+
+    .slick-next:before
+    {
+        content: ">";
+        font-size: 30px;
+    }
+    [dir='rtl'] .slick-next:before
+    {
+        content: ">";
+        font-size: 30px;
+    }
 }
-[dir='rtl'] .slick-next:before
-{
-    content: url(../img/lookbook/arrow-right.png);
+
+@media(min-width: 650px){
+    .slick-prev:before
+    {
+        content: url(../img/lookbook/arrow-left.png);
+    }
+    [dir='rtl'] .slick-prev:before
+    {
+        content: url(../img/lookbook/arrow-left.png);
+    }
+
+    .slick-next:before
+    {
+        content: url(../img/lookbook/arrow-right.png);
+    }
+    [dir='rtl'] .slick-next:before
+    {
+        content: url(../img/lookbook/arrow-right.png);
+    }
 }
 
 /* Dots */

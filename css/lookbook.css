@@ -14,16 +14,17 @@
 	width: 100%;
 }
 
+.slick-prev, .slick-next{
+	top:50%;
+}
+
 
 @media(min-width: 0px){
 	.slick-next{
-		margin-right: 150px;
+		margin-right: 10px;
 	}
 	.slick-prev{
-		margin-left: 80px;
-	}
-	.slick-prev, .slick-next{
-		top:93%;
+		margin-left: 10px;
 	}
 
 }
@@ -34,8 +35,5 @@
 	}
 	.slick-prev{
 		margin-left: 50px;
-	}
-	.slick-prev, .slick-next{
-		top:50%;
 	}
 }
