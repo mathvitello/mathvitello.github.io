@@ -32,35 +32,37 @@ a {
 a:hover{
   text-decoration: none !important;
 }
-#shop-tab:hover::before, #shows-tab:hover::before, #music-tab:hover::before, #credits-tab:hover::before{
-    content:'_ ';
-    color: #ff0000eb;
-    font-weight: 900;
-    font-size: 2em;
-    position: absolute;
-    top:-33px;
-    display:inline-block;
-    -webkit-transform:scale(1,1.7); /* Safari and Chrome */
-    -moz-transform:scale(1,1.7); /* Firefox */
-    -ms-transform:scale(1,1.7); /* IE 9 */
-    -o-transform:scale(1,1.7); /* Opera */
-    transform:scale(1,1.7); /* W3C */
-}
 
-#shop-tab:hover::before{
-    left: -4px;   
-}
+@media (min-width: 600px){
+  #shop-tab:hover::before, #shows-tab:hover::before, #music-tab:hover::before, #credits-tab:hover::before{
+      content:'_ ';
+      color: #ff0000eb;
+      font-weight: 900;
+      font-size: 2em;
+      position: absolute;
+      top:-33px;
+      display:inline-block;
+      -webkit-transform:scale(1,1.7); /* Safari and Chrome */
+      -moz-transform:scale(1,1.7); /* Firefox */
+      -ms-transform:scale(1,1.7); /* IE 9 */
+      -o-transform:scale(1,1.7); /* Opera */
+      transform:scale(1,1.7); /* W3C */
+  }
+  #shop-tab:hover::before{
+      left: -4px;   
+  }
 
-#shows-tab:hover::before{
-    left: -17px;   
-}
+  #shows-tab:hover::before{
+      left: -17px;   
+  }
 
-#music-tab:hover::before{
-    left: -13px;   
-}
+  #music-tab:hover::before{
+      left: -13px;   
+  }
 
-#credits-tab:hover::before{
-    left: -20px;  
+  #credits-tab:hover::before{
+      left: -20px;  
+  }
 }
 
 @media(min-width: 0px){
