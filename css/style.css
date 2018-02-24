@@ -11,14 +11,30 @@ ul{
 	list-style: none;
 }
 
+.menu-i{
+    position: fixed;
+    z-index: 1000;
+}
+#menu-item-roy{
+	left: 50%;
+    transform: translate(-50%, 0);
+    z-index:2;
+}
 
+@media(min-width: 0px){
+	#menu-item-roy{
+		padding:16px;
+	}
+	#menu-item-roy img{
+		width:130px;
+	}
+}
 
-
-
-
-
-
-
-
-
-
+@media(min-width: 650px){
+	#menu-item-roy{
+		padding:50px;
+	}
+	#menu-item-roy img{
+		width:200px;
+	}
+}
