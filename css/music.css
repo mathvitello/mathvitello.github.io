@@ -1,7 +1,3 @@
-body{
-  background: url(../img/backgrounds/light-blue.jpg);
-}
-
 .line-1{
     border-right: 2px solid rgba(255,255,255,.75);
     white-space: nowrap;
@@ -48,7 +44,7 @@ body{
 }
 
 .music-item:hover{
-  color:#ffffff91;
+  color:#777;
  }
 
 #links{
