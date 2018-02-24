@@ -1,6 +1,13 @@
-$("#shop-tab").click(function(){
-	console.log("ajax load")
+$( document ).ready(function() {
 	var state = {};
-	$("#shop-page").load("js/shop.txt");
-	history.pushState(state,"ROY BLAIR", '/shop/');
+	$("#main-page").load("home.txt");
+	history.pushState(state,"ROY BLAIR", '');
+
+    $("#shop-tab").click(function(){
+		console.log("ajax load")
+		var state = {};
+		$("#shop-page").load("shop.txt");
+		history.pushState(state,"ROY BLAIR", '/shop/');
+	});
+
 });
