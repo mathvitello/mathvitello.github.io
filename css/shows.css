@@ -4,6 +4,10 @@
 	letter-spacing: 1px;
 }
 
+#tickets-link:hover{
+	text-decoration: underline !important;
+}
+
 #flyers img{
 	width:78%; 
 	height:78%; 
