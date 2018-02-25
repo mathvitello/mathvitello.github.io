@@ -7,6 +7,9 @@
     margin-right: 5px;
 }
 
+#shop-tab{
+  cursor: pointer;
+}
 
 li{
   color: #ff0000eb;
