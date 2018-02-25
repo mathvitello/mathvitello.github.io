@@ -14,7 +14,7 @@ $(document).on("click", '#shop-tab', function(event) {
 $(document).on("click", '#top-nav-btn', function(event) { 
 		var state = {};
 		$("#main-page").load("../home.txt");
-		history.pushState(state,"ROY BLAIR", '');
+		history.pushState(state,"ROY BLAIR", '/');
 });
 
 $(document).on("click", '#shirt-prev', function(event) { 
@@ -37,5 +37,6 @@ $(document).on("click", '#hoodie-prev', function(event) {
 
 
 window.onpopstate = function(event) {
+	console.log(location.href);
 	location.reload();
 }
