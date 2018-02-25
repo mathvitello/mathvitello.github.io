@@ -106,10 +106,14 @@ window.onpopstate = function(event) {
 		history.pushState(state,"ROY BLAIR", '/shop/hoodie.html');
 	}
 	else if (location.href.includes("/shop/")){
-		console.log("back to shop");
 		var state = {};
 		$("#main-page").load("../shop.txt");
 		history.pushState(state,"ROY BLAIR", '/shop/');
+	}
+	else if (location.href.includes("/music/")){
+		var state = {};
+		$("#main-page").load("music.txt");
+		history.pushState(state,"ROY BLAIR", '/music/');
 	}
 	else if (location.href.includes("/")){
 		var state = {};
