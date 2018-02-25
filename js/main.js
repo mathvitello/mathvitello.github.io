@@ -43,15 +43,19 @@ window.onpopstate = function(event) {
 		history.pushState(state,"ROY BLAIR", '/shop/shirt.html');
 	}
 	else if(location.href.includes("/shop/longsleeve.html")){
-
+		var state = {};
+		$("#main-page").load("../longsleeve.txt");
+		history.pushState(state,"ROY BLAIR", '/shop/longsleeve.html');
 	}
 	else if(location.href.includes("/shop/hoodie.html")){
-		
+		var state = {};
+		$("#main-page").load("../hoodie.txt");
+		history.pushState(state,"ROY BLAIR", '/shop/hoodie.html');
 	}
 	else if (location.href.includes("/shop/")){
 		console.log("back to shop");
 		var state = {};
-		$("#main-page").load("shop.txt");
+		$("#main-page").load("../shop.txt");
 		history.pushState(state,"ROY BLAIR", '/shop/');
 	}
 	else if (location.href.includes("/")){
