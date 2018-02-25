@@ -7,7 +7,7 @@
     margin-right: 5px;
 }
 
-#shop-tab, #top-nav-btn{
+#shop-tab, #top-nav-btn, #shirt-prev, #hoodie-prev, #longsleeve-prev{
   cursor: pointer;
 }
 
