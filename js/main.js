@@ -6,6 +6,6 @@ $( document ).ready(function() {
 $(document).on("click", '#shop-tab', function(event) { 
 		console.log("ajax load");
 		var state = {};
-		$("#main-page").replaceWith("shop.txt");
+		$("#main-page").load("shop.txt");
 		history.pushState(state,"ROY BLAIR", '/shop/');
 });
