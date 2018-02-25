@@ -49,10 +49,10 @@
   color:#ff0000a1;
  }
 
-#links{
+.ch-links{
   margin-top:22px;
 }
-#links a img{
+.ch-links a img{
     width: 26px;
 }
 
@@ -69,7 +69,7 @@
   #cat-heaven-cover{
     width: 280px;height: 280px;
   }
-  #links a img{
+ .ch-links a img{
     margin-right: 9px;
     margin-left: 9px;
   }
@@ -93,7 +93,7 @@
   #cat-heaven-cover{
     width: 350px;height: 350px;
   }
-  #links a img{
+  .ch-links a img{
     margin-right: 23px;
     margin-left: 23px;
   }
