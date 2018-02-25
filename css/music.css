@@ -50,10 +50,10 @@
  }
 
 .ch-links{
-  margin-top:22px;
+  margin-top:22px !important;
 }
 .ch-links a img{
-    width: 26px;
+    width: 26px !important; 
 }
 
 .pad-me{
@@ -70,8 +70,8 @@
     width: 280px;height: 280px;
   }
  .ch-links a img{
-    margin-right: 9px;
-    margin-left: 9px;
+    margin-right: 9px !important;
+    margin-left: 9px !important;
   }
   iframe{
     width:300px;
@@ -94,8 +94,8 @@
     width: 350px;height: 350px;
   }
   .ch-links a img{
-    margin-right: 23px;
-    margin-left: 23px;
+    margin-right: 23px !important;
+    margin-left: 23px !important; 
   }
   iframe{
     width:400px;
