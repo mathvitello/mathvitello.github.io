@@ -37,11 +37,27 @@ $(document).on("click", '#hoodie-prev', function(event) {
 
 
 window.onpopstate = function(event) {
-	if (location.href.includes("shirt") || location.href.includes("hoodie") || location.href.includes("longsleeve")){
+	if(location.href.includes("/shop/shirt.html")){
+		var state = {};
+		$("#main-page").load("../shirt.txt");
+		history.pushState(state,"ROY BLAIR", '/shop/shirt.html');
+	}
+	else if(location.href.includes("/shop/longsleeve.html")){
+
+	}
+	else if(location.href.includes("/shop/hoodie.html")){
+		
+	}
+	else if (location.href.includes("/shop/")){
 		console.log("back to shop");
 		var state = {};
 		$("#main-page").load("shop.txt");
 		history.pushState(state,"ROY BLAIR", '/shop/');
+	}
+	else if (location.href.includes("/")){
+		var state = {};
+		$("#main-page").load("../home.txt");
+		history.pushState(state,"ROY BLAIR", '/');
 	}
 	else{
 		console.log(location.href);
