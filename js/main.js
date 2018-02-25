@@ -38,5 +38,11 @@ $(document).on("click", '#hoodie-prev', function(event) {
 
 window.onpopstate = function(event) {
 	console.log(location.href);
+	if (location.href.includes("shirt") || location.href.includes("hoodie") || location.href.includes("longsleeve")){
+		console.log("back to shop");
+		var state = {};
+		$("#main-page").load("shop.txt");
+		history.pushState(state,"ROY BLAIR", '/shop/');
+	}
 	location.reload();
 }
