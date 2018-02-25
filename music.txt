@@ -1,0 +1,22 @@
+  <div class="menu-i" id="menu-item-roy">
+    <a id="top-nav-btn"><img src="../img/cat-heaven-blue2.png"/></a>
+  </div>
+
+  <div class="container h-100">
+    <div class="row h-100 justify-content-center">
+      <div class="col-12 align-self-center">
+        <div class="row justify-content-center">
+          <div class="col-4" id="music-right">
+            <a id="catheaven-page"><p class="music-item"><i class="fas fa-play"></i>CAT HEAVEN<span>DEC 2017</span></p></a>
+            <a id="vans-page"><p class="music-item"><i class="fas fa-play"></i>VANS<span>OCT 2017</span></p></a>
+            <a id="shell-page"><p class="music-item"><i class="fas fa-play"></i>SHELL<span>JUL 2017</span></p></a>
+          </div>
+          <div class="col-2" id="music-divider"></div>
+          <div class="col-4" id="music-left">
+            <a id="uk-page"><p class="music-item"><i class="fas fa-play"></i>UK<span>JAN 2017</span></p></a>
+            <a id="sucker-page"><p class="music-item"><i class="fas fa-play"></i>SUCKER [DEMO]<span>JUL 2016</span></p></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

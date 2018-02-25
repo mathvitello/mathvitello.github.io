@@ -1,0 +1,21 @@
+  <div class="menu-i" id="menu-item-roy">
+    <a id="top-nav-btn"><img src="../img/cat-heaven-blue2.png"/></a>
+  </div>
+  <div class="container h-100">
+    <div class="row h-100 justify-content-center">
+      <div class="col-12 align-self-center" style="margin-top:3%;">
+        <div class="row justify-content-center">
+          <img id="cat-heaven-cover" src="../img/ch-cover.jpg" />
+        </div>
+        <div class="row justify-content-center">
+         <div id="links">
+              <a class="button hvr-grow" href="https://itunes.apple.com/us/album/cat-heaven/1316794586?uo=4&at=1001l3Iq&ct=888915493540"><img id="first" src="../img/apple-black.png"/></a>
+              <a class="button hvr-grow" href="http://open.spotify.com/album/0Z9NeEvqeecaLCFUmI4uDw"><img src="../img/spotify-black.png"/></a>
+              <a class="button hvr-grow" href="https://play.google.com/store/music/album/Roy_Blair_Cat_Heaven?id=B4clujticxginkvlyk5eosnuuly"><img src="../img/google-play-black.png"/></a>
+              <a class="button hvr-grow" href="https://www.amazon.com/Cat-Heaven-Explicit-Roy-Blair/dp/B077PMRTQP/ref=sr_1_1?s=dmusic&ie=UTF8&qid=1518618362&sr=1-1-mp3-albums-bar-strip-0&keywords=Roy+Blair"><img src="../img/amazon-black.png"/></a>
+              <a class="button hvr-grow" href="https://listen.tidal.com/album/81582873"><img src="../img/tidal-black.png"/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

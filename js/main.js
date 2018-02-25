@@ -25,6 +25,41 @@ $(document).on("click", '#music-tab', function(event) {
 		history.pushState(state,"ROY BLAIR", '/music/');
 });
 
+$(document).on("click", '#catheaven-page', function(event) { 
+		console.log("ajax load");
+		var state = {};
+		$("#main-page").load("../catheaven.txt");
+		history.pushState(state,"ROY BLAIR", '/music/catheaven.html');
+});
+
+$(document).on("click", '#vans-page', function(event) { 
+		console.log("ajax load");
+		var state = {};
+		$("#main-page").load("../vans.txt");
+		history.pushState(state,"ROY BLAIR", '/music/vans.html');
+});
+
+$(document).on("click", '#shell-page', function(event) { 
+		console.log("ajax load");
+		var state = {};
+		$("#main-page").load("../shell.txt");
+		history.pushState(state,"ROY BLAIR", '/music/shell.html');
+});
+
+$(document).on("click", '#uk-page', function(event) { 
+		console.log("ajax load");
+		var state = {};
+		$("#main-page").load("../uk.txt");
+		history.pushState(state,"ROY BLAIR", '/music/uk.html');
+});
+
+$(document).on("click", '#sucker-page', function(event) { 
+		console.log("ajax load");
+		var state = {};
+		$("#main-page").load("../sucker.txt");
+		history.pushState(state,"ROY BLAIR", '/music/sucker.html');
+});
+
 
 $(document).on("click", '#top-nav-btn', function(event) { 
 		var state = {};
