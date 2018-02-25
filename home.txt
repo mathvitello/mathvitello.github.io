@@ -5,8 +5,8 @@
             <div class="col-5">
              <ul>
               <a id="shop-tab"><li>shop</li></a>
-              <a id="shows-tab" href="/shows"><li>shows</li></a>
-              <a id="music-tab" href="/music"><li>music</li></a>
+              <a id="shows-tab"><li>shows</li></a>
+              <a id="music-tab"><li>music</li></a>
               <a id="credits-tab" href="/credits"><li>credits</li></a>
             </ul>
             </div>

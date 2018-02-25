@@ -11,6 +11,20 @@ $(document).on("click", '#shop-tab', function(event) {
 		history.pushState(state,"ROY BLAIR", '/shop/');
 });
 
+$(document).on("click", '#shows-tab', function(event) { 
+		console.log("ajax load");
+		var state = {};
+		$("#main-page").load("shows.txt");
+		history.pushState(state,"ROY BLAIR", '/shows/');
+});
+
+$(document).on("click", '#music-tab', function(event) { 
+		console.log("ajax load");
+		var state = {};
+		$("#main-page").load("music.txt");
+		history.pushState(state,"ROY BLAIR", '/music/');
+});
+
 
 $(document).on("click", '#top-nav-btn', function(event) { 
 		var state = {};
@@ -35,6 +49,9 @@ $(document).on("click", '#hoodie-prev', function(event) {
 		$("#main-page").load("../hoodie.txt");
 		history.pushState(state,"ROY BLAIR", '/shop/hoodie.html');
 });
+
+
+
 
 
 window.onpopstate = function(event) {

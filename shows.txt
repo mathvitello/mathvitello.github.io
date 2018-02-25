@@ -1,0 +1,19 @@
+<div class="menu-i" id="menu-item-roy">
+  <a id="top-nav-btn"><img src="../img/cat-heaven-blue2.png"/></a>
+</div>
+
+<div class="container h-100" style="">
+  <div class="row h-100 justify-content-center" style="">
+      <div class="col-12 align-self-center" id="fly-wrapper">
+        <div class="row justify-content-center" id="flyers">
+          <img src="../img/flyers.jpg">
+        </div>
+        <div class="row justify-content-center" id="flyers-m">
+          <img src="../img/flyers-m.jpg">
+        </div>
+        <div class="row justify-content-center" id="tix">
+            <a id="tickets-link" href="https://www.ticketfly.com/event/1631870-kailee-morgue-los-angeles/">buy tickets</a>
+        </div>
+    </div>   
+  </div>
+</div>
