@@ -1,5 +1,5 @@
     <div class="menu-i" style="position: relative;" id="menu-item-roy">
-        <a id="top-nav-btn"><img src="../img/cat-heaven-blue2.png" style="display: block; margin:0 auto;"/></a>
+        <a id="top-nav-btn"><img src="../img/cat-heaven-shirt.png" style="display: block; margin:0 auto;"/></a>
     </div>
     <div class="container h-100" style="margin-left: 0px;margin-right: 0px;max-width: 100%;">
       <div class="row h-100 justify-content-center" id="fullpage">

@@ -1,5 +1,5 @@
 <div class="menu-i" id="menu-item-roy">
-  <a id="top-nav-btn"><img src="../img/cat-heaven-blue2.png"/></a>
+  <a id="top-nav-btn"><img src="../img/cat-heaven-shirt.png"/></a>
 </div>
 
 <div class="container h-100" style="">
