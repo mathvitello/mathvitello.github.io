@@ -10,10 +10,17 @@ $(document).on("click", '#shop-tab', function(event) {
 		history.pushState(state,"ROY BLAIR", '/shop/');
 });
 
-window.addEventListener( "pageshow", function ( event ) {
-  var historyTraversal = event.persisted || ( typeof window.performance != "undefined" && window.performance.navigation.type === 2 );
-  if ( historyTraversal ) {
-    // Handle page restore.
-    window.location.reload();
-  }
+
+$(document).on("click", '#top-nav-btn', function(event) { 
+		var state = {};
+		$("#main-page").load("home.txt");
+		history.pushState(state,"ROY BLAIR", '/shop/');
 });
+
+
+
+window.onpopstate = function(event) {
+    if(event && event.state) {
+        location.reload();
+    }
+}
