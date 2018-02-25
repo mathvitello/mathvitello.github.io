@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 	var state = {};
-	$("#main-page").html("home.txt");
+	$("#main-page").replaceWith("home.txt");
 	history.pushState(state,"ROY BLAIR", '');
 
     $("#shop-tab").click(function(){
@@ -8,7 +8,7 @@ $( document ).ready(function() {
 
 		console.log("ajax load")
 		var state = {};
-		$("#main-page").html("shop.txt");
+		$("#main-page").replaceWith("shop.txt");
 		history.pushState(state,"ROY BLAIR", '/shop/');
 	});
 
