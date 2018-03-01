@@ -1,18 +1,165 @@
   <div class="menu-i" style="position: relative;" id="menu-item-roy">
-    <a id="top-nav-btn"><img src="../img/cat-heaven-shirt.png" style="display: block; margin:0 auto;"/></a>
+    <a href="/"><img src="../img/cat-heaven-shirt.png" style="display: block; margin:0 auto;"/></a>
   </div>
 
-    <div class="container h-100" style="margin-left: 0px;margin-right: 0px;max-width: 100%;">
-      <div class="row justify-content-center">
-        <div class="col-12 align-self-center" id="shop-main">
-          <div class="row justify-content-center" id="lookbook-imgs">
-            <img src="../img/top/shirt/enya026-058.jpg"/>
-            <img src="../img/top/shirt/enya026-048.jpg"/>
-            <img src="../img/top/shirt/enya233-006.jpg"/>
-            <img src="../img/top/shirt/enya233-060.jpg"/>
-            <img src="../img/top/shirt/enya233-063.jpg"/>
-            <img src="../img/top/shirt/enya233-118.jpg"/>
-          </div>
-        </div>
+ <div class="container" style="padding-bottom:30px">
+    <div class="row" id="shop-item-p" style="padding-left: 30px;padding-right: 30px;padding-top:20px;">
+      <div class="col-7">
+        <img class="selected-shop-item" src="../img/top/shirt/enya233-006.jpg" style="float:left;"/>
+      </div>
+      <div class="col-5">
+        <p class="product-name">SHIRT</p>
+        <p class="price">20 USD</p>
+<div id='product-component-111367d5760'></div>
+          <script type="text/javascript">
+          /*<![CDATA[*/
+            (function () {
+              var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+              if (window.ShopifyBuy) {
+                if (window.ShopifyBuy.UI) {
+                  ShopifyBuyInit();
+                } else {
+                  loadScript();
+                }
+              } else {
+                loadScript();
+              }
+
+            function loadScript() {
+              var script = document.createElement('script');
+              script.async = true;
+              script.src = scriptURL;
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+              script.onload = ShopifyBuyInit;
+            }
+
+            function ShopifyBuyInit() {
+                var client = ShopifyBuy.buildClient({
+                  domain: 'matt-vitello.myshopify.com',
+                  apiKey: '90d3e54af3ed3ffbd6b8ad37e0f17ca7',
+                  appId: '6',
+                });
+
+                ShopifyBuy.UI.onReady(client).then(function (ui) {
+                  ui.createComponent('product', {
+                    id: [510354227255],
+                    node: document.getElementById('product-component-111367d5760'),
+                    moneyFormat: '%24%7B%7Bamount%7D%7D',
+                    options: {
+      "product":{"variantId":"all","width":"240px",
+        "contents":{"img":false,"imgWithCarousel":false,"title":false,"variantTitle":false,"price":false,"description":false,"buttonWithQuantity":false,"quantity":false},
+        "styles":{
+                  "product":{"text-align":"center","@media (min-width: 601px)":{"max-width":"calc(25% - 20px)","margin-left":"20px","margin-bottom":"50px"}},
+                         "button": {
+                            "color": "#000",
+                            "background": "transparent",
+                            "border": "1px solid #000",
+                            "font-family": "\"WebsiteFont\", \"Helvetica Neue\", Arial",
+                            "font-weight": "bold",
+                            "font-size": "0.9em",
+                            ":hover": {"background-color": "transparent"},
+                            ":focus": {
+                                "background-color": "transparent",
+                                "outline": "0 !important"
+                            },
+                            "padding": "12px 58px",
+              
+                            //"padding":"10px 24px 10px 24px"
+                         },
+                         "options":{
+                             "width": "207px !important",  //140
+                             "display": "block !important"
+                         },
+                         "buttonWrapper":{
+                             "text-align": "start"
+                         }
+                      }
+                    },
+                    "option":{
+                      "styles":{
+                          "option":{
+                              "cursor":"pointer",
+                              ":focus":{
+                                  "outline":"0 !important"
+                              }
+                          },
+                          "wrapper":{
+                              "background-color":"transparent",
+                              "border-color":"black",
+                              "border-width":"1px",
+                              "text-align-last":"center",
+                              "text-align":"center",
+                              "vertical-align":"center",
+                              "cursor":"pointer",
+                              ":focus":{
+                                  "outline":"0 !important"
+                              }
+                          },
+                          "select":{
+                              "color":"black",
+                              "font-family": "\"Helvetica Neue\", Arial",
+                              "font-weight": "bold",
+                              "font-size": "0.9em",
+                              "margin-left":"-2px",
+                              "cursor":"pointer",
+                              ":focus":{
+                                  "outline":"0 !important"
+                              },
+                              "padding":"7px 5px 7px 5px"
+                          },
+                          "selectIcon":{
+                              "fill":"black",
+                              ":focus":{
+                                  "outline":"0 !important"
+                              }
+                          },
+                          "optionSelected":{
+                            "color": "black"
+                          }
+                      }
+                    },
+                    "cart":{"contents":{"button":true},
+                      "styles":{
+                        "footer":{"background-color":"#fff","border-top":"1px solid black"},
+                        "button":{
+                          "background-color":"transparent",
+                          "color": "black",
+                          "border": "1px solid black"
+                        }
+                      }},
+
+                    "toggle":{
+                      "styles":{
+                        "toggle":{
+                          "background-color": "#ffffff",
+                          ":hover": {"background-color": "#ffffff"},
+                          ":focus": {"background-color": "#ffffff"},
+                          "color": "#000"
+                        },
+                        "iconPath":{
+                          "fill": "#000"
+                        },
+                        "count":{
+                          "font-size": "11px",
+                          "margin-bottom": "0px"
+                        }
+                      }
+                    },
+
+                    "modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},
+                      "styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}}}},
+
+                    "productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
+                });
+              });
+            }
+          })();
+          /*]]>*/
+          </script>
+
+          <p class="product-description">
+            blah blah blah soemthing about product description will go here
+          </p>
       </div>
     </div>
+  </div>

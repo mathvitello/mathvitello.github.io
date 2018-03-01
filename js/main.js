@@ -112,7 +112,7 @@ window.onpopstate = function(event) {
 	}
 	else if (location.href.includes("/music/")){
 		var state = {};
-		$("#main-page").load("music.txt");
+		$("#main-page").load("../music.txt");
 		history.pushState(state,"ROY BLAIR", '/music/');
 	}
 	else if (location.href.includes("/")){
