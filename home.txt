@@ -4,7 +4,7 @@
           <div class="row justify-content-center"> 
             <div class="col-5">
              <ul>
-              <a id="shop-tab"><li>shop</li></a>
+              <a href="/shop" id="shop-tab"><li>shop</li></a>
               <a id="shows-tab"><li>shows</li></a>
               <a id="music-tab"><li>music</li></a>
               <a id="credits-tab" href="/credits"><li>credits</li></a>
