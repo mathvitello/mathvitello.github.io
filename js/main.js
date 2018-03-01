@@ -99,7 +99,7 @@ window.onpopstate = function(event) {
 		$("#main-page").load("../shop.txt");
 		history.pushState(state,"ROY BLAIR", '/shop/');
 	}*/
-	else if (location.href.includes("/music/")){
+	if (location.href.includes("/music/")){
 		var state = {};
 		$("#main-page").load("../music.txt");
 		history.pushState(state,"ROY BLAIR", '/music/');
