@@ -90,22 +90,8 @@ $(document).on("click", '#hoodie-prev', function(event) {
 
 
 window.onpopstate = function(event) {
-	if(location.href.includes("/shop/shirt.html")){
-		var state = {};
-		$("#main-page").load("../shirt.txt");
-		history.pushState(state,"ROY BLAIR", '/shop/shirt.html');
-	}
-	else if(location.href.includes("/shop/longsleeve.html")){
-		var state = {};
-		$("#main-page").load("../longsleeve.txt");
-		history.pushState(state,"ROY BLAIR", '/shop/longsleeve.html');
-	}
-	else if(location.href.includes("/shop/hoodie.html")){
-		var state = {};
-		$("#main-page").load("../hoodie.txt");
-		history.pushState(state,"ROY BLAIR", '/shop/hoodie.html');
-	}
-	else if (location.href.includes("/shop/")){
+
+	if (location.href.includes("/shop/")){
 		var state = {};
 		$("#main-page").load("../shop.txt");
 		history.pushState(state,"ROY BLAIR", '/shop/');
