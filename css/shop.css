@@ -42,6 +42,7 @@
     top: 0 !important;
     padding-top: 63px;
     padding-right: 20px;
+    position: absolute !important;
   }
   #shop-item-p .col-7{
     -ms-flex: 0 0 100%;
