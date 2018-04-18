@@ -36,7 +36,7 @@ a, a:hover {
 	background-size:97% 97%;
 	background-repeat: no-repeat;
     width: 85%;
-    opacity: 0.5;
+    opacity: 0.0;
     padding-top: 45%;
     padding-bottom: 45%;
     margin-top: 21%;
@@ -52,10 +52,10 @@ a, a:hover {
 
 
 #block2{
-  background-image:url("../img/tv-borders.png");
+  background-image:url("../img/tv-border-3.png");
   background-size:97% 97%;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.0;
   padding-top: 28%;
   padding-bottom: 28%;
   margin-left: -8%;
@@ -66,6 +66,6 @@ a, a:hover {
 }
 
 #block2:hover{
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
