@@ -32,27 +32,40 @@ a, a:hover {
 
 /*clickable areas*/
 #block{
-    background-color: red;
+	background-image:url("../img/shirt-borders.png");
+	background-size:97% 97%;
+	background-repeat: no-repeat;
     width: 85%;
-    opacity: 0.6;
+    opacity: 0.65;
     padding-top: 45%;
     padding-bottom: 45%;
     margin-top: 21%;
     margin-right: 3%;
+	cursor: pointer;
+	transition: opacity .2s;
+	
+}
+
+#block:hover{
+	opacity: 0.8;
 }
 
 
 #block2{
-  background-color: red;
-  opacity: 0.6;
+  background-image:url("../img/tv-borders.png");
+  background-size:97% 97%;
+  background-repeat: no-repeat;
+  opacity: 0.65;
   padding-top: 28%;
   padding-bottom: 28%;
   margin-left: -8%;
   margin-top: 31%;
   width: 55%;
+  cursor: pointer;
+  transition: opacity .2s;
 }
 
-
-
-
+#block2:hover{
+	opacity: 0.8;
+}
 
