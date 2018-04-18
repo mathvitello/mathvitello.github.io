@@ -1,4 +1,4 @@
-//move blocks based on height
+//move clickable blocks based on height / width ratio
 
 $( document ).ready(function() {
     var height = $(window).height();
