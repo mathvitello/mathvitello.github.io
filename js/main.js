@@ -1,36 +1,109 @@
-    window.onload = function() {
-        //document.getElementById("tune").play();
-        $('#play-button').click();
+//move blocks based on height
+
+$( document ).ready(function() {
+    var height = $(window).height();
+    var width = $(window).width();
+    var ratio = (width/height);
+
+    if(ratio > 1.8 && ratio <= 1.9){
+        //block1
+        $("#block").css("margin-top", "14%");
+        
+        //block2
+        $("#block2").css("margin-top", "25%");
     }
 
-    $('#play-button').click(function(){ document.getElementById("tune").play(); });
+    else if(ratio > 1.9 && ratio <= 2){
+        //block1
+        $("#block").css("margin-top", "9%");
+        
+        //block2
+        $("#block2").css("margin-top", "22%");
+    }
 
-    $(document).ready(function() {
-        $('.carousel').carousel({
-            interval: 100000000,
-            wrap: false
-        }).carousel('pause');
+    else if(ratio > 2 && ratio <= 2.1){
+        //block1
+        $("#block").css("margin-top", "5%");
+        
+        //block2
+        $("#block2").css("margin-top", "16%");
+    }
 
-        $(".carousel").on("touchstart", function(event){
-            var xClick = event.originalEvent.touches[0].pageX;
-            $(this).on("touchmove", function(event){
-                var xMove = event.originalEvent.touches[0].pageX;
-                if( Math.floor(xClick - xMove) > 50 ){
-                    $(this).carousel('next');
-                }
-                else if( Math.floor(xClick - xMove) < -50 ){
-                    $(this).carousel('prev');
-                }
-            });
-            $(".carousel").on("touchend", function(){
-                $(this).off("touchmove");
-            });
-        });
-    });
+    else if(ratio > 2.1 && ratio <= 2.2){
+        //block1
+        $("#block").css("margin-top", "1%");
+        
+        //block2
+        $("#block2").css("margin-top", "12%");
+    }
 
-/*
-    $('#shirt').click(function(){   
-        var href = $('.product__buy').attr('href');
-        window.location.href = href;
-    });
-    */
+    else if(ratio > 2.2){
+        //block1
+        $("#block").css("margin-top", "0%");
+        
+        //block2
+        $("#block2").css("margin-top", "5%");
+    }
+    else{
+        //block1
+        $("#block").css("margin-top", "21%");
+        
+        //block2
+        $("#block2").css("margin-top", "31%");
+    }
+
+});
+
+
+$( window ).resize(function() {
+    var height = $(window).height();
+    var width = $(window).width();
+    var ratio = (width/height);
+
+    if(ratio > 1.8 && ratio <= 1.9){
+        //block1
+        $("#block").css("margin-top", "14%");
+        
+        //block2
+        $("#block2").css("margin-top", "25%");
+    }
+
+    else if(ratio > 1.9 && ratio <= 2){
+        //block1
+        $("#block").css("margin-top", "9%");
+        
+        //block2
+        $("#block2").css("margin-top", "22%");
+    }
+
+    else if(ratio > 2 && ratio <= 2.1){
+        //block1
+        $("#block").css("margin-top", "5%");
+        
+        //block2
+        $("#block2").css("margin-top", "16%");
+    }
+
+    else if(ratio > 2.1 && ratio <= 2.2){
+        //block1
+        $("#block").css("margin-top", "1%");
+        
+        //block2
+        $("#block2").css("margin-top", "12%");
+    }
+
+    else if(ratio > 2.2){
+        //block1
+        $("#block").css("margin-top", "0%");
+        
+        //block2
+        $("#block2").css("margin-top", "5%");
+    }
+    else{
+        //block1
+        $("#block").css("margin-top", "21%");
+        
+        //block2
+        $("#block2").css("margin-top", "31%");
+    }
+});
