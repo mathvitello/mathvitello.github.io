@@ -21,6 +21,20 @@ a, a:hover {
     opacity: 0.9;
 }
 
+/* added overlay so user can zoom in on screen on mobile */
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent; /* Black background with opacity */
+    z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+    display: block;
+}
+
 /*background video*/
 #mainVideo {
     position: fixed;
@@ -31,18 +45,36 @@ a, a:hover {
   }
 
 /*clickable areas*/
+@media(min-width: 0px){
+  #block{
+    opacity: 0.8;
+  }
+  #block2{
+    opacity: 0.9;
+  }
+}
+
+@media(min-width: 500px){
+  #block{
+    opacity: 0.0;
+  }
+  #block2{
+    opacity: 0.0;
+  }
+}
+
 #block{
 	background-image:url("../img/shirt-borders.png");
 	background-size:97% 97%;
 	background-repeat: no-repeat;
-    width: 85%;
-    opacity: 0.0;
-    padding-top: 45%;
-    padding-bottom: 45%;
-    margin-top: 21%;
-    margin-right: 3%;
+  width: 85%;
+  padding-top: 45%;
+  padding-bottom: 45%;
+  margin-top: 21%;
+  margin-right: 3%;
 	cursor: pointer;
 	transition: opacity .2s;
+  z-index: 5;
 	
 }
 
@@ -50,12 +82,10 @@ a, a:hover {
 	opacity: 0.8;
 }
 
-
 #block2{
   background-image:url("../img/tv-border-3.png");
   background-size:97% 97%;
   background-repeat: no-repeat;
-  opacity: 0.0;
   padding-top: 28%;
   padding-bottom: 28%;
   margin-left: -8%;
@@ -63,6 +93,7 @@ a, a:hover {
   width: 55%;
   cursor: pointer;
   transition: opacity .2s;
+  z-index: 5;
 }
 
 #block2:hover{
