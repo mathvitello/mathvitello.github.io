@@ -5,6 +5,20 @@ $( document ).ready(function() {
     var width = $(window).width();
     var ratio = (width/height);
 
+    if(ratio > 3){
+        $("#shop-inner").css("transform", "scale(0.25)");
+    }
+    else if(ratio > 2.5 && ratio <= 3){
+        $("#shop-inner").css("transform", "scale(0.35)");
+    }
+    else if(ratio > 2.1 && ratio <= 2.5){
+        $("#shop-inner").css("transform", "scale(0.45)");
+    }
+    else{
+        $("#shop-inner").css("transform", "scale(0.55)");
+    }
+
+
     if(ratio > 1.8 && ratio <= 1.9){
         //block1
         $("#block").css("margin-top", "14%");
@@ -71,6 +85,20 @@ $( window ).resize(function() {
     var height = $(window).height();
     var width = $(window).width();
     var ratio = (width/height);
+
+    if(ratio > 3){
+        $("#shop-inner").css("transform", "scale(0.25)");
+    }
+    else if(ratio > 2.5 && ratio <= 3){
+        $("#shop-inner").css("transform", "scale(0.35)");
+    }
+    else if(ratio > 2.1 && ratio <= 2.5){
+        $("#shop-inner").css("transform", "scale(0.45)");
+    }
+    else{
+        $("#shop-inner").css("transform", "scale(0.55)");
+    }
+    
 
     if(ratio > 1.8 && ratio <= 1.9){
         //block1

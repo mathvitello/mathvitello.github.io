@@ -2,7 +2,7 @@ html, body{
     height:100%;
     font-family: "Helvetica","Helvetica Neue", Arial !important;
     color: #fff;
-    background: linear-gradient(to bottom right, #3036bd, #383ee6, #3036bd)
+    background: #000;
 }
 p{
   color: #fff;
@@ -30,6 +30,13 @@ a, a:hover {
   margin-top: 30px;
   display: block;
   margin: 0 auto;
+}
+
+#shop-outer{
+    background-image: url(../img/tv.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #payments{
