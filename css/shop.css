@@ -2,7 +2,7 @@ html, body{
     height:100%;
     font-family: "Helvetica","Helvetica Neue", Arial !important;
     color: #fff;
-    background-color: #383ee6 !important; 
+    background: linear-gradient(to bottom right, #3036bd, #383ee6, #3036bd)
 }
 p{
   color: #fff;
