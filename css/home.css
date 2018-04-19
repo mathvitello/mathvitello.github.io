@@ -50,7 +50,7 @@ a, a:hover {
 /*clickable areas*/
 @media(min-width: 0px){
   #block{
-    opacity: 0.8;
+    opacity: 1;
   }
   #block2{
     opacity: 0.9;
@@ -59,15 +59,15 @@ a, a:hover {
 
 @media(min-width: 500px){
   #block{
-    opacity: 0.0;
+    opacity: 1;
   }
   #block2{
-    opacity: 0.0;
+    opacity: 0.2;
   }
 }
 
 #block{
-	background-image:url("../img/shirt-borders.png");
+	background-image:url("../img/shirt-border-3.png");
 	background-size:97% 97%;
 	background-repeat: no-repeat;
   width: 85%;
@@ -78,11 +78,29 @@ a, a:hover {
 	cursor: pointer;
 	transition: opacity .2s;
   z-index: 5;
+  
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
 	
 }
 
 #block:hover{
-	opacity: 0.8;
+	opacity: 1;
+	-webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+     animation-play-state: paused;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
 
 #block2{
@@ -101,69 +119,6 @@ a, a:hover {
 
 #block2:hover{
 	opacity: 0.9;
-}
-
-
-/* SHOP PAGE */
-#shop-icon{
-  width:90%;
-  display: block;
-  margin: 0 auto;
-}
-
-.shop-text{
-  text-align: center;
-  text-shadow: 3px 3px #333;
-}
-
-#shirt-img{
-  width: 80%;
-  margin-top: 30px;
-  display: block;
-  margin: 0 auto;
-}
-
-#payments{
-  width: 90%;
-  margin-top: 60px;
-}
-
-
-
-#product-component-a89fcfb0e82{
-  max-width: 100% !important;
-}
-
-@media(min-width: 0px){
-  
-}
-@media(min-width: 576px){
-  #product-component-a89fcfb0e82{
-    transform: scale(1.2);
-    margin-left: 60px;
-    margin-right: 20px;
-  }
-}
-@media(min-width: 768px){
-  #product-component-a89fcfb0e82{
-    transform: scale(1.5);
-    margin-left: 130px;
-    margin-right: 120px;
-  }
-}
-@media(min-width: 992px){
-  #product-component-a89fcfb0e82{
-    transform: scale(1.7);
-    margin-left: 240px;
-    margin-right: 200px;
-  }
-}
-@media(min-width: 1200px){
-  #product-component-a89fcfb0e82{
-    transform: scale(1.9);
-    margin-left: 340px;
-    margin-right: 280px;
-  }
 }
 
 /*@ 1200, 992, 768, 576, ... mobile stuff */
