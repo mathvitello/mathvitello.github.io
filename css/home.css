@@ -89,6 +89,7 @@ a, a:hover {
   margin-top: 145%;
   padding-top: 50%;
   padding-bottom: 50%;
+  margin-right: -3%;
 }
 
 #block:hover{
@@ -125,7 +126,7 @@ a, a:hover {
 }
 
 #block2-m{
-  margin-left: -66%;
+  margin-left: -70%;
   margin-top: -28%;
   padding-top: 35%;
   padding-bottom: 35%;
