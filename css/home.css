@@ -2,7 +2,8 @@ html, body{
     height:100%;
     font-family: "Helvetica","Helvetica Neue", Arial !important;
     color: #fff;
-    background-color: #000 !important; 
+    /*background-color: #000 !important; */
+	background: linear-gradient(to right, #4b50fb, #917488, #d17cb8);
 }
 p{
   color: #fff;
@@ -16,12 +17,14 @@ a, a:hover {
 /* HOME PAGE */
 
 #main-icon{
-    width: 9%;
-    position: absolute;
-    margin: 19px;
-    z-index: 6;
-    margin-left: 40px;
+    width: 200px;
     opacity: 0.9;
+	cursor:pointer;
+}
+
+#icon-container{
+		height:auto;
+		width: auto;
 }
 
 /* added overlay so user can zoom in on screen on mobile */
@@ -48,23 +51,6 @@ a, a:hover {
   }
 
 /*clickable areas*/
-@media(min-width: 0px){
-  #block{
-    opacity: 1;
-  }
-  #block2{
-    opacity: 0.9;
-  }
-}
-
-@media(min-width: 500px){
-  #block{
-    opacity: 1;
-  }
-  #block2{
-    opacity: 0.2;
-  }
-}
 
 #block{
 	background-image:url("../img/shirt-border-3.png");
@@ -120,6 +106,67 @@ a, a:hover {
 #block2:hover{
 	opacity: 0.9;
 }
+
+@media(min-width: 0px){
+  #block{
+    opacity: 1;
+  }
+  #block2{
+    opacity: 0.9;
+  }
+
+  #center-1{
+	position: absolute; 
+	left: 50%;
+  }
+  #center-2{
+	position: relative; 
+	left: -50%;
+  }
+  
+  #content{
+	position: absolute; 
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto; 
+	width:200px;
+	z-index: 6;
+	margin-top:120px;
+  }
+}
+
+@media(min-width: 500px){
+  #block{
+    opacity: 1;
+  }
+  #block2{
+    opacity: 0;
+  }
+  #content{
+	margin-top:110px;
+  }
+}
+
+@media(min-width: 600px){
+  #content{
+	margin-top:90px;
+  }
+}
+
+@media(min-width: 768px){
+  #content{
+	position: absolute; 
+	left: unset; 
+	right: unset; 
+	margin-left: unset; 
+	margin-right: unset; 
+	margin:20px;
+  }
+
+}
+
+
 
 /*@ 1200, 992, 768, 576, ... mobile stuff */
 
