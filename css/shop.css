@@ -55,6 +55,9 @@ a, a:hover {
     padding-right: 0px;
     padding-left: 0px;
   }
+  #shop-inner{
+    transform: scale(0.55);
+  }
   #product-component-949f5b273d9{ 
     transform: scale(1);
     margin-left: 0px;
@@ -165,5 +168,4 @@ a, a:hover {
     margin-right: 295px;
   }
 }
-
 /*@ 1200, 992, 768, 576, ... mobile stuff */

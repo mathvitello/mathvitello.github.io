@@ -4,7 +4,7 @@ $( document ).ready(function() {
     var height = $(window).height();
     var width = $(window).width();
     var ratio = (width/height);
-
+    console.log(ratio);
     if(ratio > 3){
         $("#shop-inner").css("transform", "scale(0.25)");
     }
@@ -15,7 +15,16 @@ $( document ).ready(function() {
         $("#shop-inner").css("transform", "scale(0.45)");
     }
     else{
-        $("#shop-inner").css("transform", "scale(0.55)");
+        if (width > 2800){
+            $("#shop-inner").css("transform", "scale(0.9)");
+        }
+        else if(width > 2000){
+            $("#shop-inner").css("transform", "scale(0.7)");
+        }
+        else{
+            $("#shop-inner").css("transform", "scale(0.55)");
+        }
+
     }
 
 
@@ -96,7 +105,15 @@ $( window ).resize(function() {
         $("#shop-inner").css("transform", "scale(0.45)");
     }
     else{
-        $("#shop-inner").css("transform", "scale(0.55)");
+        if (width > 2800){
+            $("#shop-inner").css("transform", "scale(0.9)");
+        }
+        else if(width > 2000){
+            $("#shop-inner").css("transform", "scale(0.7)");
+        }
+        else{
+            $("#shop-inner").css("transform", "scale(0.55)");
+        }
     }
     
 
