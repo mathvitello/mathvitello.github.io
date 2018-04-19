@@ -76,7 +76,12 @@ $( document ).ready(function() {
     }
 
 	var block = $("#block").closest(".col-6").position();
-	if(width < 768){
+    if(width < 500){
+        $("#content").css({
+            'margin-top':15
+        });
+    }
+	else if(width < 768 && width >= 500){
 		$("#content").css({
 			'margin-top':(block.top/2)-59
 		});
@@ -165,14 +170,19 @@ $( window ).resize(function() {
     }
 	
 	var block = $("#block").closest(".col-6").position();
-	if(width < 768){
-		$("#content").css({
-			'margin-top':(block.top/2)-59
-		});
-	}
-	else{
-		$("#content").css({
-			'margin-top':20
-		});
-	}
+    if(width < 500){
+        $("#content").css({
+            'margin-top':15
+        });
+    }
+    else if(width < 768 && width >= 500){
+        $("#content").css({
+            'margin-top':(block.top/2)-59
+        });
+    }
+    else{
+        $("#content").css({
+            'margin-top':20
+        });
+    }
 });

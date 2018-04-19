@@ -17,14 +17,29 @@ a, a:hover {
 /* HOME PAGE */
 
 #main-icon{
-    width: 200px;
-    opacity: 0.9;
 	cursor:pointer;
 }
 
 #icon-container{
 		height:auto;
 		width: auto;
+}
+
+#mobile{
+    position: fixed; 
+    width: 100%;
+    height: 100%;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    z-index: 1;
+    display: block;
+    background-image: url(../img/bg-mobile2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* added overlay so user can zoom in on screen on mobile */
@@ -52,7 +67,7 @@ a, a:hover {
 
 /*clickable areas*/
 
-#block{
+#block, #block-m{
 	background-image:url("../img/shirt-border-5.png");
 	background-size:97% 97%;
 	background-repeat: no-repeat;
@@ -68,6 +83,12 @@ a, a:hover {
   animation: blink-animation 1s steps(5, start) infinite;
   -webkit-animation: blink-animation 1s steps(5, start) infinite;
 	
+}
+
+#block-m{
+  margin-top: 170%;
+  padding-top: 55%;
+  padding-bottom: 55%;
 }
 
 #block:hover{
@@ -89,7 +110,7 @@ a, a:hover {
   }
 }
 
-#block2{
+#block2, #block2-m{
   background-image:url("../img/tv-border-3.png");
   background-size:97% 97%;
   background-repeat: no-repeat;
@@ -103,15 +124,23 @@ a, a:hover {
   z-index: 5;
 }
 
+#block2-m{
+  margin-left: -66%;
+  margin-top: -40%;
+  padding-top: 35%;
+  padding-bottom: 35%;
+  width: 70%;
+}
+
 #block2:hover{
 	opacity: 0.9;
 }
 
 @media(min-width: 0px){
-  #block{
+  #block, #block-m{
     opacity: 1;
   }
-  #block2{
+  #block2, #block2-m{
     opacity: 0.9;
   }
 
@@ -130,17 +159,40 @@ a, a:hover {
 	right: 0; 
 	margin-left: auto; 
 	margin-right: auto; 
-	width:200px;
+	width:120px;
 	z-index: 6;
+  }
+  #desktop, #mainVideo{
+    display: none;
+  }
+  #mobile{
+    display: block;
+  }
+  #main-icon{
+    width: 120px;
+    opacity: 0.8;
   }
 }
 
 @media(min-width: 500px){
-  #block{
+  #block, #block-m{
     opacity: 1;
   }
-  #block2{
+  #block2, #block2-m{
     opacity: 0;
+  }
+  #desktop, #mainVideo{
+    display: block;
+  }
+  #mobile{
+    display: none;
+  }
+  #main-icon{
+    width: 200px;
+    opacity: 0.9;
+  }
+  #content{
+    width:200px;
   }
 }
 
