@@ -155,7 +155,7 @@ a, a:hover {
   }
   
   #content{
-	position: absolute; 
+	position: fixed; 
 	left: 0; 
 	right: 0; 
 	margin-left: auto; 
