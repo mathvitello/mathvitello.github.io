@@ -132,7 +132,6 @@ a, a:hover {
 	margin-right: auto; 
 	width:200px;
 	z-index: 6;
-	margin-top:120px;
   }
 }
 
@@ -143,15 +142,9 @@ a, a:hover {
   #block2{
     opacity: 0;
   }
-  #content{
-	margin-top:110px;
-  }
 }
 
 @media(min-width: 600px){
-  #content{
-	margin-top:90px;
-  }
 }
 
 @media(min-width: 768px){
@@ -161,7 +154,6 @@ a, a:hover {
 	right: unset; 
 	margin-left: unset; 
 	margin-right: unset; 
-	margin:20px;
   }
 
 }

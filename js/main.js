@@ -52,6 +52,18 @@ $( document ).ready(function() {
         $("#block2").css("margin-top", "31%");
     }
 
+	var block = $("#block").closest(".col-6").position();
+	if(width < 768){
+		$("#content").css({
+			'margin-top':(block.top/2)-59
+		});
+	}
+	else{
+		$("#content").css({
+			'margin-top':20
+		});
+	}
+	
 });
 
 
@@ -106,4 +118,16 @@ $( window ).resize(function() {
         //block2
         $("#block2").css("margin-top", "31%");
     }
+	
+	var block = $("#block").closest(".col-6").position();
+	if(width < 768){
+		$("#content").css({
+			'margin-top':(block.top/2)-59
+		});
+	}
+	else{
+		$("#content").css({
+			'margin-top':20
+		});
+	}
 });
