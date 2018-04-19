@@ -18,7 +18,7 @@ $( document ).ready(function() {
         if (width > 2800){
             $("#shop-inner").css("transform", "scale(0.9)");
         }
-        else if(width > 2000){
+        else if(width > 1900){
             $("#shop-inner").css("transform", "scale(0.7)");
         }
         else{
@@ -108,7 +108,7 @@ $( window ).resize(function() {
         if (width > 2800){
             $("#shop-inner").css("transform", "scale(0.9)");
         }
-        else if(width > 2000){
+        else if(width > 1900){
             $("#shop-inner").css("transform", "scale(0.7)");
         }
         else{
