@@ -910,8 +910,9 @@ img.wp-smiley,
 }
 
 .topphone .topbarico {
-	padding-top: 4px;
+	padding-top: 2px;
 	line-height: 32px;	
+	margin-right:3px;
 }
 
 
