@@ -1,0 +1,13 @@
+.owl-buttons div:first-child span:before, .owl-buttons div:last-child span:before{
+	font-size: 30px;
+}
+
+.owl-buttons div:first-child span{
+	line-height: 70px !important;
+	margin-left: -15px;
+}
+
+.owl-buttons div:last-child span{
+	line-height: 70px !important;
+	margin-right: -15px;
+}
