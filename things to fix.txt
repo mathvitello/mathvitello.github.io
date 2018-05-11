@@ -1,0 +1,29 @@
+Home Page
+-New carousel images (Wiki Commons?)
+-
+
+About Us
+-
+
+Services
+-
+
+Capabilities
+-
+
+Contact Us
+-Should make sure it has the info Eddie wants from a message
+
+Success Message
+-Should try to make this prettier
+
+General Improvements
+-Need icon replacements, I can see them on my local copy but not on the live version (fontawesome icons maybe)
+-Icons: Phone, email, facebook, twitter, linkedin, up, right
+-Update footer (Not sure what to add, but it feels weird
+
+Things to Gather from Eddie
+-Page text
+-Logo
+-About us image
+-Need to set up the formspree to send directly to Eddie's email, but we need him to confirm the formspree thing, which just shows up as an email but we should let him know
