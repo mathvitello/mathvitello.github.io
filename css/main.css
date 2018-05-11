@@ -1,11 +1,8 @@
 /* my css */
 .nav-container li a {
-  text-transform: uppercase;
+	text-transform: uppercase;
+	padding:38px 0px 35px 0px;
 }
-
-
-
-
 
 /* preset css */
 img.wp-smiley,img.emoji {
@@ -18,6 +15,23 @@ img.wp-smiley,img.emoji {
   vertical-align: -0.1em !important;
   background: none !important;
   padding: 0 !important;
+}
+
+.contact{
+	margin-bottom: 15px;
+}
+
+input{
+	width: 100%;
+}
+
+textarea.contact {
+	width: 100%;
+	height: 200px;
+}
+
+#nav_menu-2, #custom_html-4{
+	width: 33%;
 }
 
 img#wpstats{display:none}
