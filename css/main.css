@@ -50,6 +50,10 @@ h3{
   padding-left: 0px;
 }
 
+.tx-slider.darkoverlay .tx-slider-box .tx-slide-content{
+  background-color: rgba(0,0,0,0.2) !important;
+}
+
 
 /* Testimonial Carousel */
 #carousel {
