@@ -54,6 +54,110 @@ h3{
   background-color: rgba(0,0,0,0.2) !important;
 }
 
+/*Why Work With Us Page*/
+
+.txt-info{
+  display: none;
+  position: relative;
+  width:100%;
+  text-align: center;
+}
+
+.txt-info p{
+  color: #fff;
+  opacity: 1;
+}
+.visual-block{
+    margin: 0 0 20px;
+    background-position: 50% 50%;
+    background-size: cover;
+    box-shadow: 0 0 42px #c6c6d1;
+    cursor: default;
+}
+
+.visual-block a {
+    min-height: 352px;
+    position: relative;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    transition: all .25s;
+}
+
+.visual-txt{
+    background-color: rgba(138, 13, 26, 0.8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.visual-txt h4{
+  margin-bottom: 0px;
+}
+
+.visual-block a .txt-container {
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    -webkit-transition: opacity .25s;
+    transition: opacity .25s;
+    opacity: .5;
+    border: 2.5px solid #fff;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.visual-block a .visual-txt {
+    position: relative;
+    width: 100%;
+}
+
+.visual-block a .visual-txt h4 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff !important;
+}
+
+.visual-block a:hover .txt-container {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  opacity: .7;
+  cursor: default;
+  border: 2.5px solid #fff;
+  border-radius: 3px;
+  background: rgba(138, 13, 26, 1);
+}
+
+#block1 {
+  background-image: url(../img/clinic.jpg);
+}
+
+#block2 {
+  background-image: url(../img/projects.jpg);
+}
+
+#block3 {
+  background-image: url(../img/experience.jpg);
+}
+
+#block4 {
+  background-image: url(../img/dedication.jpg);
+}
+
+#block5 {
+  background-image: url(../img/security.jpg);
+}
+
+#block6 {
+  background-image: url(../img/team.jpg);
+}
 
 /* Testimonial Carousel */
 #carousel {
