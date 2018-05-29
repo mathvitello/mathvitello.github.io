@@ -55,6 +55,26 @@ h3{
 }
 
 /*Why Work With Us Page*/
+@media(min-width: 0px){
+  .txt-info p{
+    font-size: 0.85rem;
+  }
+}
+@media(min-width: 470px){
+  .txt-info p{
+    font-size: 1rem;
+  }
+}
+@media(min-width: 992px){
+  .txt-info p{
+    font-size: 0.85rem;
+  }
+}
+@media(min-width: 1200px){
+  .txt-info p{
+    font-size: 0.95rem;
+  }
+}
 
 .txt-info{
   display: none;
