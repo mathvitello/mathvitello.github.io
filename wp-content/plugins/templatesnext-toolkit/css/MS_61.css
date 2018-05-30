@@ -1169,8 +1169,8 @@
 	padding: 0px 36px;
 	z-index: 305;
 	
-	top: 45%;
-	transform: translateY(-50%);	
+	/*top: 45%;
+	transform: translateY(-50%);*/
 }
 
 .tx-slide-title {
@@ -2130,7 +2130,7 @@ span.tx-animate {
 	
 	.tx-slider,
 	.tx-slider .tx-slider-box {
-		min-width: 360px;
+		min-width: 320px;
 	}
 	.tx-slider .tx-slider-box .tx-slider-img {
 		display: block;

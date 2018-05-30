@@ -51,7 +51,7 @@ h3{
 }
 
 .tx-slider.darkoverlay .tx-slider-box .tx-slide-content{
-  background-color: rgba(0,0,0,0.2) !important;
+  background-color: rgba(0,0,0,0.55) !important;
 }
 
 /*Why Work With Us Page*/
@@ -300,7 +300,9 @@ width: 100%;
     font-size: 0.98em;
     padding-top:0px;
 }
-
+.footer-text{
+  color: #e9e9e9 !important;
+}
 
 @media(min-width: 0px){
   .quote-phrase{
@@ -318,6 +320,9 @@ width: 100%;
   .main-txt{
     font-size: 1.1em;
   }
+  .footer-text, .footer-nav a{
+      font-size: 0.8rem !important;
+  }
 }
 @media(min-width: 500px){
   .quote-phrase{
@@ -334,6 +339,9 @@ width: 100%;
   }
   .main-txt{
     font-size: 1.3em;
+  }
+  .footer-text, .footer-nav a{
+      font-size: 1rem !important;
   }
 }
 @media(min-width: 750px){
