@@ -70,9 +70,26 @@ h3{
     font-size: 0.85rem;
   }
 }
+@media(min-width: 1070px){
+  .nav-container li{
+    padding: 0px 16px;
+  }
+  .nav-container li{
+    padding: 0px 12px;
+  }
+  .nav-container li a, .fixeddiv .nav-container > ul > li > a{
+    font-size: 12px;
+  }
+}
 @media(min-width: 1200px){
   .txt-info p{
     font-size: 0.95rem;
+  }
+  .nav-container li{
+    padding: 0px 16px;
+  }
+  .nav-container li a, .fixeddiv .nav-container > ul > li > a{
+    font-size: 13px;
   }
 }
 

@@ -41,6 +41,7 @@
       <link rel="icon" href="../wp-content/uploads/2017/12/cropped-31c8493-1-192x192.png" sizes="192x192" />
       <link rel="apple-touch-icon-precomposed" href="../wp-content/uploads/2017/12/cropped-31c8493-1-180x180.png" />
       <link rel='stylesheet' href='../css/main.css' type='text/css' media='all' />
+      <link rel='stylesheet' href='../css/contact.css' type='text/css' media='all' />
    </head>
 <body class="page-template-default page page-id-122 custom-background nx-wide twocol-blog single-author no-avatars nx-preloader">
       <div class="nx-ispload">
@@ -101,6 +102,9 @@
                           <li id="menu-item-467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-467">
                             <a href="../our-process/index.html"><div>Our Process</div></a>
                           </li>
+                          <li id="menu-item-467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-467">
+                            <a href="../deliverables/index.html"><div>Deliverables</div></a>
+                          </li>                         
                           <li id="menu-item-467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-467 current_page_item current_page_parent">
                             <a href="index.html"><div>Contact Us</div></a>
                           </li>
@@ -125,31 +129,65 @@
 		<div id="main" class="site-main">
 			<div id="primary" class="content-area">
 				<div id="content" class="site-content" role="main">
-					<article id="post-6" class="post-6 page type-page status-publish hentry">
-						<div class="entry-content">
-							<!-- <h5></h5> -->
-							<p>Email – <a href="mailto:ediehl@pathwaybiotechnology.com">ediehl@pathwaybiotechnology.com</a><br />
-							   Phone – 608-345-1927<br />
+          <div class="container" style="margin-bottom:60px;">
+            <div class="row">
+              <div class="col-lg-6">
+                  <form method="POST" action="https://formspree.io/jakeatude2@gmail.com">
+                    <div class="input string required contact_name field_with_errors">
+                      <label class="string required">Name</label>
+                      <input class="string required contact" required="required" aria-required="true" aria-invalid="true" placeholder="Full Name" type="text" name="name" value="">
+                    </div>
+                    <div class="input string required contact_name field_with_errors">
+                      <label class="string required">Email</label>
+                      <input class="string required contact" required="required" aria-required="true" aria-invalid="true" placeholder="you@email.com" type="email" name="email" value="">
+                    </div>
+                    <div class="input string required contact_name field_with_errors">
+                      <label class="string required">Message</label>
+                      <textarea class="contact" name="message" placeholder=""></textarea>
+                    </div>
+                    <input type="hidden" name="_next" value="../success-message/index.html" />
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-9 col-sm-offset-3" id="btn-container">
+                      <br>
+                      <input type="submit" name="commit" value="Send message" class="btn btn btn-primary" data-disable-with="Send message">
+                    </div>
+                    <!--
+                    <label>Your Name</label>
+                    <input class="contact" type="text" name="name" placeholder="">
+                    <label>Your Email</label>
+                    <input class="contact" type="email" name="email" placeholder="">
+                    <label>Your Message</label>
+                    <textarea class="contact" name="message" placeholder=""></textarea>
 
-							<form method="POST" action="https://formspree.io/jakeatude2@gmail.com">
-								<label>Your Name</label>
-								<input class="contact" type="text" name="name" placeholder="">
-								<label>Your Email</label>
-								<input class="contact" type="email" name="email" placeholder="">
-								<label>Your Message</label>
-								<textarea class="contact" name="message" placeholder=""></textarea>
+                    <input type="hidden" name="_next" value="../success-message/index.html" />
 
-								<input type="hidden" name="_next" value="../success-message/index.html" />
-
-								<button type="submit">Send</button>
-							</form>
-							</div><!-- .entry-content -->
-							<footer class="entry-meta">
-							</footer><!-- .entry-meta -->
-						</article><!-- #post -->
-						<div id="comments" class="comments-area"></div><!-- #comments -->			
-					</div><!-- #content -->
-				</div><!-- #primary -->
+                    <button type="submit">Send</button>
+                  -->
+                  </form>
+                </div>
+                <div class="col-lg-6">
+                  <div class="row">
+                    <div class="col-md-6" style="height:156px;">
+                      <iframe width="100%" height="150px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFLvxgYpIi1bGVqNPSSt7k8VvR_9fsULo&amp;q=Milwaukee,+WI">
+                      </iframe>
+                    </div>
+                    <div class="col-md-6" style="height:156px;">
+                      <h4 class="sub-title">Pathway Biotechnology</h4>
+                      <p class="content" style="font-size:16px;color: rgba(0, 0, 0, 0.86);">700 N Art Museum Dr<br> Milwaukee, WI 53202</p>
+                    </div>
+                    <div id="contact-info" class="col-md-12">
+                      <p style="margin-bottom: 0.3rem;"><i class="topbarico genericon genericon-phone" id="contact-icons"></i>(262) 456-0489</p>
+                      <p><i class="topbarico genericon genericon-mail" id="contact-icons"></i>ediehl@pathwaybiotechnology.com</p>
+                    </div>
+                    <div style="padding-top:25px;" class="col-md-12">
+                      <p style="font-size: 12px;">We accept major credit cards, Pay Pal, and U.S. money orders</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- #content -->
+        </div><!-- #primary -->
 
 
 
@@ -171,11 +209,11 @@
                <a href="../who-we-are/index.html">Who We Are</a>
              </div>    
            </div>
-           <div class="col-4 footer-nav">
-            <div class="menu-main-menu-container">
-             <a href="index.html">Contact Us</a>
-           </div>    
-         </div>
+            <div class="col-4 footer-nav">
+              <div class="menu-main-menu-container">
+               <a href="../deliverables/index.html">Deliverables</a>
+              </div>    
+            </div>
          <div class="col-4 footer-nav">
           <div class="menu-main-menu-container">
            <a href="../welcome/index.html">Welcome</a>
@@ -186,7 +224,11 @@
                <a href="../why-work-with-us/index.html">Why Work With Us</a>
               </div>    
             </div>
-            <div class="col-4"></div>
+            <div class="col-4 footer-nav">
+            <div class="menu-main-menu-container">
+             <a href="index.html">Contact Us</a>
+           </div>    
+         </div>
             <div class="col-4 footer-nav">
               <div class="menu-main-menu-container">
                <a href="../what-we-do/index.html">What We Do</a>
@@ -239,6 +281,7 @@
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468"><a href="../who-we-are/index.html">Who We Are</a></li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468"><a href="../why-work-with-us/index.html">Why Work With Us</a></li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468"><a href="../our-process/index.html">Our Process</a></li>
+    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468"><a href="../deliverables/index.html">Deliverables</a></li>
     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-467"><a href="index.html">Contact Us</a></li>
   </ul>
    </div>

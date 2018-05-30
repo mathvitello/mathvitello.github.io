@@ -122,6 +122,9 @@
 @media only screen and (min-width : 992px) and (max-width : 1050px) {
 	.iamCol{font-size: 35px;}
 }
+@media only screen and (min-width : 1051px) and (max-width : 1100px) {
+	.iamCol{font-size: 38px;}
+}
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) and (max-width : 1200px) {
   #textSlider.row { margin-right: 0px !important; margin-left: 0px !important; }
