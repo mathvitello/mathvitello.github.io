@@ -49,10 +49,12 @@
 	.fc-title{
 		padding-left: 5px;
 		font-size: 1.05em;
+		text-align: center;
 	}
 	.fc-text{
 		padding:5px;
 		font-size: 0.66em;
+		text-align: center;
 	}	
 	#fc1{
 		height: 235px;
@@ -130,10 +132,12 @@
 	.fc-title{
 		padding-left: 20px;
 		font-size: 1.3em;
+		text-align: left;
 	}
 	.fc-text{
 		padding:20px;
 		font-size: 0.75em;
+		text-align: left;
 	}	
 	#fc1{
 		height: 230px;
@@ -173,13 +177,13 @@
 		font-size: 0.75em;
 	}
 	#fc1{
-		height: 200px;
+		height: 220px;
 	}
 	#fc2{
 		height: 230px;
 	}
 	#fc3{
-		height: 200px;
+		height: 220px;
 	}
 }
 @media(min-width: 992px){
