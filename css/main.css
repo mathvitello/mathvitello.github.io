@@ -313,17 +313,6 @@ display: table;
 width: 100%;
 }
 
-/*OUR PROCESS*/
-.flowchart-content{
-    border: 4px solid #8b0d19;
-    border-radius: 60px;
-}
-
-.flowchart-content p{
-    padding: 20px;
-    font-size: 0.98em;
-    padding-top:0px;
-}
 .footer-text{
   color: #e9e9e9 !important;
 }
@@ -350,8 +339,25 @@ width: 100%;
   .section-title2{
     font-size:1.35em;
   }
+  .content-area, .featured-area{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .welcome-text, .wwd-text, .wwa-text{
+    font-size: 0.75em
+  }
 }
 @media(min-width: 500px){
+  .content-area, .featured-area{
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+  }
+  .wwa-text{
+    font-size: 0.9em;
+  }
+  .welcome-text, .wwd-text{
+    font-size: 1em
+  }
   .quote-phrase{
     font-size:13px;
   }
@@ -581,18 +587,22 @@ body.custom-background { background-color: #f3f1ed; }
   margin-top: -3px;
 }
 
+.entry-title{
+  padding-bottom: 0px !important;
+}
+
 @media(min-width: 0px){
   .icon-container{
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 32%;
-    flex: 0 0 32%;
-    max-width: 32%;
+    -ms-flex: 0 0 28%;
+    flex: 0 0 28%;
+    max-width: 28%;
   }
   .deliverable-content{
       -webkit-box-flex: 0;
-      -ms-flex: 0 0 68%;
-      flex: 0 0 68%;
-      max-width: 68%;
+      -ms-flex: 0 0 72%;
+      flex: 0 0 72%;
+      max-width: 72%;
   }
   .content-subtxt{
     font-size: 0.75em;

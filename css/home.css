@@ -101,16 +101,19 @@
   text-transform: none;
   font-size: 1em;
 }
-#home-content-main{font-size: 1.5rem;
+#home-content-main{
+  font-size: 1.5rem;
   margin-bottom: 20px;
-    padding-top: 25px;
+  padding-bottom: 10px;
   }
-#home-content-sub{font-size: 1em;
+#home-content-sub{
+    font-size: 1em;
+    /*
     border-left: 6.5px solid #8a0d1ad9;
     padding-left: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #f5f5f5;
+    background-color: #f5f5f5;*/
 }
 
 /*==========  Mobile First Method  ==========*/
