@@ -346,6 +346,9 @@ width: 100%;
   .welcome-text, .wwd-text, .wwa-text{
     font-size: 0.75em
   }
+  .socialicons{
+    display: none;
+  }
 }
 @media(min-width: 500px){
   .content-area, .featured-area{
@@ -713,6 +716,9 @@ body.custom-background { background-color: #f3f1ed; }
 }
 
 @media(min-width: 768px){
+  .socialicons{
+    display: inherit;
+  }
   #market-analysis{
     padding-bottom:20px;
   }
