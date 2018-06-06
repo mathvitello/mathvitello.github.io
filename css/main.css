@@ -9,6 +9,19 @@
   padding: inherit !important;
 }
 
+.ubarinnerwrap{
+  padding: 0% 15px !important;
+}
+
+.site-header .home-link{
+  padding: 0 0px 0px 15px !important;
+}
+
+.titlebar{
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
 ul.nav-container, .nav-container > ul{
   padding: 0 10px 0 0;
 }
