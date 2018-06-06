@@ -5,6 +5,10 @@
   font-size: 14px;
 }
 
+.site-header.fixeddiv .headerinnerwrap .home-link span p{
+  margin-top:7px !important;
+}
+
 .navbar{
   padding: inherit !important;
 }
