@@ -47,6 +47,10 @@ a, a:hover {
   }
 }
 
+.shopify-buy-frame--toggle{
+  display: block !important;
+}
+
 
 /* SHOP PAGE */
 #launcher, #webWidget, .zEWidget-launcher{
