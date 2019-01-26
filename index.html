@@ -2,16 +2,91 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>ShopGrease</title>
+  <meta name="title" content="ROY BLAIR">
+  <meta name="description" content="Cat Heaven LLC">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:url"                content="http://royblair.com/" />
+  <meta property="og:title"              content="ROY BLAIR" />
+  <meta property="og:description"        content="Cat Heaven LLC"/>
+  <title>ROY BLAIR</title>
   <base href="/">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <!-- <base href="/"> -->
- <script>document.write('<base href="' + document.location + '" />');</script>
-<link rel="stylesheet" href="styles.fa85e7427578fe3c2637.css"></head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108381604-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-108381604-1');
+  </script>
+  <script>
+  (function(){
+    var redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect != location.href) {
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
+<link rel="stylesheet" href="styles.eb039fe4cf0b935c37b2.css"></head>
 <body>
-  <sg-root></sg-root>
-  
-<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.2f4a59095805af02bd79.js"></script><script type="text/javascript" src="scripts.806effac119676237f10.js"></script><script type="text/javascript" src="main.785813369070435e6cf3.js"></script></body>
+  <div id="loader" style="width: 100%; height: 100%; background-color: #000;position: absolute; z-index: 10000;overflow: hidden;margin:0;padding:0;">
+    <div style="position: absolute;top: 0;bottom: 0;margin: auto;height: 48%;height: fit-content;width:100%">
+      <img id="ch-load" src="assets/img/catheaven-loader.gif" style="width:100%; max-width: 600px; margin:0 auto; display:block;margin-top:-20px"/>
+      <p style="color:#fff; text-align:center;font-size: 1.35em;font-family: monospace;letter-spacing: -1px;">
+        <span id="percent">0</span><span>%</span>
+      </p>
+    </div>
+  </div>
+  <rb-root id="main" style="opacity: 0"> <!--style="display:none"-->
+    <div style="width: 100%; height: 100vh; background-color: #000;"></div>
+  </rb-root>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var loader = document.getElementById('loader');
+      var main = document.getElementById('main');
+      setTimeout(function() {
+         loader.style.display = 'none';
+         main.style.opacity = '1';
+         main.style.display = 'inline';
+
+      }, 3200);   //3200
+
+      var valueElement = document.getElementById('percent');
+      var start = 0;
+      var end = 100;
+      var duration  = 2600; // In milliseconds (divide by 1000 to get seconds).
+      var framerate = 82;    // In milliseconds (divide by 1000 to get seconds).
+
+      var toAdd = ( ( end - start ) * framerate ) / duration;
+
+      var interval = setInterval(function() {
+        var currentValue = parseInt(valueElement.innerHTML);
+        if (currentValue >= end || currentValue + toAdd >= end) {
+          clearInterval(interval);
+          valueElement.innerHTML = ("100");
+          return;
+        }
+
+        valueElement.innerHTML = (!isNaN(currentValue) == true ? parseInt(currentValue + toAdd) : parseInt(toAdd));
+      }, framerate);
+    });
+  </script>
+  <!--scripts-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://static.mailerlite.com/js/w/webforms.min.js?vaa4d608450783acdc64d5338ff94f6d5" type="text/javascript"></script>
+  <script src="assets/js/buy-button-storefront.min.js"/></script>
+  <script>
+    function ml_webform_success_1058500() {
+        var $ = ml_jQuery || jQuery;
+        $('.ml-subscribe-form-1058500 .row-success').show();
+        $('.ml-subscribe-form-1058500 .row-form').hide();
+    }
+  </script>
+<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.7a0e6866a34e280f48e7.js"></script><script type="text/javascript" src="main.64d0d92285a49ec92289.js"></script></body>
 </html>
