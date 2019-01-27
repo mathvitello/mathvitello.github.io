@@ -31,50 +31,9 @@
 </script>
 <link rel="stylesheet" href="styles.eb039fe4cf0b935c37b2.css"></head>
 <body>
-  <div id="loader" style="width: 100%; height: 100%; background-color: #000;position: absolute; z-index: 10000;overflow: hidden;margin:0;padding:0;">
-    <div style="position: absolute;top: 0;bottom: 0;margin: auto;height: 48%;height: fit-content;width:100%">
-      <img id="ch-load" src="assets/img/catheaven-loader.gif" style="width:100%; max-width: 600px; margin:0 auto; display:block;margin-top:-20px"/>
-      <p style="color:#fff; text-align:center;font-size: 1.35em;font-family: monospace;letter-spacing: -1px;">
-        <span id="percent">0</span><span>%</span>
-      </p>
-    </div>
-  </div>
-  <rb-root id="main" style="opacity: 0"> <!--style="display:none"-->
+  <rb-root id="main"> <!--style="display:none"-->
     <div style="width: 100%; height: 100vh; background-color: #000;"></div>
   </rb-root>
-
-
-<script>
-    document.addEventListener("DOMContentLoaded", function(event) {
-      var loader = document.getElementById('loader');
-      var main = document.getElementById('main');
-      setTimeout(function() {
-         loader.style.display = 'none';
-         main.style.opacity = '1';
-         main.style.display = 'inline';
-
-      }, 3200);   //3200
-
-      var valueElement = document.getElementById('percent');
-      var start = 0;
-      var end = 100;
-      var duration  = 2600; // In milliseconds (divide by 1000 to get seconds).
-      var framerate = 82;    // In milliseconds (divide by 1000 to get seconds).
-
-      var toAdd = ( ( end - start ) * framerate ) / duration;
-
-      var interval = setInterval(function() {
-        var currentValue = parseInt(valueElement.innerHTML);
-        if (currentValue >= end || currentValue + toAdd >= end) {
-          clearInterval(interval);
-          valueElement.innerHTML = ("100");
-          return;
-        }
-
-        valueElement.innerHTML = (!isNaN(currentValue) == true ? parseInt(currentValue + toAdd) : parseInt(toAdd));
-      }, framerate);
-    });
-  </script>
   <!--scripts-->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -88,5 +47,5 @@
         $('.ml-subscribe-form-1058500 .row-form').hide();
     }
   </script>
-<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.7a0e6866a34e280f48e7.js"></script><script type="text/javascript" src="main.64d0d92285a49ec92289.js"></script></body>
+<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.7a0e6866a34e280f48e7.js"></script><script type="text/javascript" src="main.3d17292ebb32ee77ff0e.js"></script></body>
 </html>
