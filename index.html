@@ -2,69 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="title" content="ROY BLAIR">
-  <meta name="description" content="Cat Heaven LLC">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:url"                content="http://royblair.com/" />
-  <meta property="og:title"              content="ROY BLAIR" />
-  <meta property="og:description"        content="Cat Heaven LLC"/>
-  <title>ROY BLAIR</title>
+  <title>CanopyPerspectives</title>
   <base href="/">
-  <!--<link rel="icon" type="image/x-icon" href="favicon.ico">-->
-
-  <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="assets/icons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/icons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="assets/icons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="assets/icons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="assets/icons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="assets/icons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
-  <link rel="manifest" href="assets/icons/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="assets/icons/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108381604-1"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3e1c90e3f1.js" crossorigin="anonymous"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-108381604-1');
+    (function(){
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect != location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
   </script>
-  <script>
-  (function(){
-    var redirect = sessionStorage.redirect;
-    delete sessionStorage.redirect;
-    if (redirect && redirect != location.href) {
-      history.replaceState(null, null, redirect);
-    }
-  })();
-</script>
-<link rel="stylesheet" href="styles.a1545058ea99feb82c64.css"></head>
-<body style="background-image: url('assets/img/bluegrid.png');">
-  <rb-root id="main"> <!--style="display:none"-->
-    <div style="width: 100%; height: 100vh; background-color: #000;"></div>
-  </rb-root>
-  <!--scripts-->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="https://static.mailerlite.com/js/w/webforms.min.js?vaa4d608450783acdc64d5338ff94f6d5" type="text/javascript"></script>
-  <script src="assets/js/buy-button-storefront.min.js"/></script>
-  <script>
-    function ml_webform_success_1058500() {
-        var $ = ml_jQuery || jQuery;
-        $('.ml-subscribe-form-1058500 .row-success').show();
-        $('.ml-subscribe-form-1058500 .row-form').hide();
-    }
-  </script>
-<script type="text/javascript" src="runtime.a66f828dca56eeb90e02.js"></script><script type="text/javascript" src="polyfills.7a0e6866a34e280f48e7.js"></script><script type="text/javascript" src="main.9e5a7518fefa18004da8.js"></script></body>
+<link rel="stylesheet" href="styles.087a8e96c3aff9823455.css"></head>
+<body>
+  <app-root></app-root>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="runtime-es2015.0dae8cbc97194c7caed4.js" type="module"></script><script src="runtime-es5.0dae8cbc97194c7caed4.js" nomodule defer></script><script src="polyfills-es5.2237b5d0d7a85091411d.js" nomodule defer></script><script src="polyfills-es2015.f332a089ad1600448873.js" type="module"></script><script src="main-es2015.38afe8093b65919eeea8.js" type="module"></script><script src="main-es5.38afe8093b65919eeea8.js" nomodule defer></script></body>
 </html>
